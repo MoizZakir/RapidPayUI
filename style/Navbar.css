@@ -3,10 +3,11 @@
     width: 100%;
     padding: 20px 3%;
     position: sticky;
-    top: 1;
+    /* top: 0; */
     background-color: transparent;
     display: flex;
     justify-content: space-between;
+    /* border-bottom: 0.1px solid rgb(206, 206, 206); */
 }
 
 .logo {
@@ -23,14 +24,14 @@
 }
 
 .text1 {
-    font-size: 24px;
+    font-size: 21px;
     color: rgb(3, 177, 3);
     font-weight: 700;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 .text2 {
-    font-size: 24px;
+    font-size: 21px;
     color: blue;
     font-weight: 700;
     font-family: Arial, Helvetica, sans-serif;
@@ -41,21 +42,23 @@
     /* border: 1px solid black; */
     display: flex;
     align-items: center;
-    justify-content: space-around;
+gap:50px
 }
 
 .navbar-item {
-    font-size: 18px;
+    font-size: 15px;
     font-family: Arial, Helvetica, sans-serif;
     display: flex;
     flex-direction: column;
     position: relative;
     padding: 10px 0;
+    font-weight: 500;
 }
 
 .navbar-item:hover .dropdown {
     
     display: flex;
+    
 }
 
 .dropdown {
@@ -64,9 +67,9 @@
     background-color: white;
     
     flex-direction: column;
-    gap: 5px;
+    gap: 10px;
     box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
-    padding: 10px 5px;
+    padding: 10px 10px;
     top: 40px;
     left: -50px;
     width: 160px;
@@ -80,6 +83,24 @@
 
 
 .nav-right {
-    /* border: 1px solid black; */
+    
     flex: 0.5;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.nav-right button{
+    background:none;
+    padding: 7px 10px;
+    border-radius: 5px;
+    border :0.1px solid rgb(182, 179, 179);
+    color:rgb(102, 101, 101);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+
+}
+
+.nav-right button:hover{
+    background-color: rgb(173, 173, 173);
 }
