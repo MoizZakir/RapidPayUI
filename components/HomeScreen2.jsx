@@ -17,8 +17,13 @@ const HomeScreen2 = () => {
 
         </div>
         <div class="box">
-        <h1>Welcome!</h1>
-        <p>This box has a black background with a blurry purple color at the bottom center.</p>
+        <h1>Explore RapidPay<br/>
+        Tap to Pay Features</h1>
+        <p>Learn about Nearpay's innovative Tap to Pay features,
+           designed  to <br/> streamline transactions
+           with contactless technology for faster and more<br/> secure payments.</p>
+
+        <button className='btn'>Learn More</button>
     </div>
 
 

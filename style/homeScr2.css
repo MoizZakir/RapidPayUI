@@ -26,34 +26,68 @@
 }
 
 .box {
+
     position: relative;
     width: 90%;
     min-height: 60vh;
     margin: 100px auto;
-    padding: 20px;
-    background-color: rgb(86, 48, 255);
+    padding: 20px 20px;
+
+   
+    
+        
+        background-image: radial-gradient(circle farthest-side at center bottom, hsl(120, 100%, 50%) -1%, hsl(0, 0%, 100%) 100%);;
+        
+        color: black;
+        text-align: center;
+        border-radius: 10px;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+        font-family: Arial, Helvetica, sans-serif;
+        overflow: hidden; /* Ensure the gradient doesn't overflow the box */
+       
+    }
+    .box:hover{
     color: white;
-    text-align: center;
-    border-radius: 10px;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
-    overflow: hidden; /* Ensure the gradient doesn't overflow the box */
+        background-image: radial-gradient(circle farthest-side at center bottom, hsl(120, 100%, 50%) -1%, hsl(240, 100%, 53%) 100%);;
+
 }
 
-.box::after {
-    content: '';
-    position: absolute;
-    bottom: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 100%;
-    height: 100px; /* Height of the purple blur */
-    background: linear-gradient(to top, rgba(0, 255, 13, 0.952),rgb(86, 48, 255));
-    border-radius: 0 0 10px 10px; /* Match the box border radius */
-    filter: blur(15px); /* Blurry effect */
-    z-index: 0; /* Place behind the content */
-}
 
 .box h1, .box p {
     position: relative; /* Ensure text is above the background */
     z-index: 1; /* Bring text above the gradient */
+
+}
+.box h1{
+    padding-top: 45px;
+    font-size: 33px;
+    
+    margin: 0 auto;
+}
+.box p{
+   
+    padding-top: 20px;
+  
+    
+    line-height: 30px;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.btn{
+    display: inline-block;
+    padding: 15px 20px;
+    font-size: 15px;
+
+    margin-top: 40px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(13, 48, 252);
+    border: none;
+    
+    border-radius: 15px;
+    cursor: pointer;
+    font-weight: 500;
+    text-decoration: none;
+    transition: background-color 0.3s;
+    z-index: 1;
 }
