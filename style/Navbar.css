@@ -104,3 +104,8 @@ gap:50px
 .nav-right button:hover{
     background-color: rgb(173, 173, 173);
 }
+@media (max-width:950px) {
+    .navbar-items{
+        display: none;
+    }
+}
