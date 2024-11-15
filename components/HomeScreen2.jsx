@@ -1,5 +1,5 @@
 import React from 'react'
-import '../style/HomeScr2.css'
+import '../style/homeScr2.css'
 
 const HomeScreen2 = () => {
   return (
