@@ -33,8 +33,9 @@
     display: flex;
     margin: 0px 10px;
     align-items: center;
+    padding: 20px 10px;
     width: 29rem;
-    height: 190px;
+ min-height: max-content;
     /* padding: 50px 5px; */
     
     color: white;

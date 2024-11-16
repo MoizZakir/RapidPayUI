@@ -2,6 +2,7 @@
     padding-top: 100px;
     display: flex;
     flex-wrap: wrap;
+    
 
 
 }
@@ -11,10 +12,9 @@
     padding-top: 50px;
     width: 50%;
     border: 1px solid red;
-    height: 500px;
+    min-height:max-content ;
 }
 .homescreen4-section1 div{
-    
     width: 92%;
 }
 .homescreen4-section1 p{
@@ -22,6 +22,9 @@
     color: gray;
     font-size: 18px;
     line-height: 26px;
+}
+.frameworks{
+    width: 80%;
 }
 .homescreen4-section2{
     width: 50%;
@@ -31,10 +34,13 @@
 
 @media (max-width:960px) {
     .homescreen4-section1{
+        width: 95%;
+    }
+    .frameworks{
         width: 100%;
     }
     .homescreen4-section2{
-        width: 100%;
+        width: 95%;
     }
     
 }
