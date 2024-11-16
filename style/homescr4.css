@@ -1,0 +1,40 @@
+.homescreen4{
+    padding-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+
+
+}
+.homescreen4-section1{
+    padding: 0 50px;
+    
+    padding-top: 50px;
+    width: 50%;
+    border: 1px solid red;
+    height: 500px;
+}
+.homescreen4-section1 div{
+    
+    width: 92%;
+}
+.homescreen4-section1 p{
+    margin:15px 0 ;
+    color: gray;
+    font-size: 18px;
+    line-height: 26px;
+}
+.homescreen4-section2{
+    width: 50%;
+    border: 1px solid blue;
+    height: 500px;
+}
+
+@media (max-width:960px) {
+    .homescreen4-section1{
+        width: 100%;
+    }
+    .homescreen4-section2{
+        width: 100%;
+    }
+    
+}
