@@ -1,0 +1,42 @@
+.homeScreen5{
+    padding-top: 130px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.homeScreen5-first{
+    padding-left: 50px;
+    
+    
+    width: 50%;}
+.homeScreen5-first img{
+    width: 90%;
+}
+.homeScreen5-second{
+    padding-top: 20px;
+    width: 50%;
+    padding-right: 50px;
+}
+.homeScreen5-second p{
+    font-size: 18px;
+    /* padding-right: 50px; */
+    line-height: 28px;
+    margin-top: 20px;
+}
+.homeScreen5-second p{
+    /* width: 90; */
+
+}
+@media (max-width:900px) {
+
+    .homeScreen5{
+        flex-direction: column-reverse;
+    }
+    .homeScreen5-first{
+        width: 100vw;
+    }
+    .homeScreen5-second{
+        width: 100vw;
+        padding-left:15px;
+    }
+    
+}
