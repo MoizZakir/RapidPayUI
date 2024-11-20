@@ -8,7 +8,7 @@
 }
 
 .intro {
-    width: 500px;
+    width: 50%;
     padding-right: 50px;
     padding-top: 120px;
     font-family: Arial, Helvetica, sans-serif;
@@ -30,7 +30,7 @@
 }
 
 .banner {
-    width: 500px;
+   width: 50%;
 
 
     display: flex;
@@ -76,4 +76,16 @@
     border-radius: 5px;
 
     box-shadow: 0px 13px 15px -3px rgba(0, 0, 0, 0.1);
+}
+@media (max-width:920px) {
+    .banner {
+        width: 100%;
+    }
+    .intro {
+        width: 100%;
+       
+    }
+    .banner img {
+        width: 70%;
+    }
 }

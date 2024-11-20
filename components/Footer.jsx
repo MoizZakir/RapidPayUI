@@ -24,42 +24,49 @@ const Footer = () => {
                 <h5>Product</h5>
                 <ul>
                     <li>Certficate</li>
-                    <li>Certficate</li>
-                    <li>Certficate</li>
-                    <li>Certficate</li>
-                    <li>Certficate</li>
+                    <li>Infrastructure</li>
+                    <li>Technically</li>
+                    <li>Features</li>
+                    <li>On-Boarding</li>
+                    <li>Pricing</li>
                 </ul>
             </div>  
             <div className='footer-2'>
-                <h5>Product</h5>
+                <h5>Company</h5>
                 <ul>
-                    <li>Certficate</li>
-                    <li>Certficate</li>
-                    <li>Certficate</li>
-                    <li>Certficate</li>
-                    <li>Certficate</li>
-                    <li>Certficate</li>
-                    <li>Certficate</li>
+                <li>About</li>
+                    <li>features</li>
+                    <li>Technically</li>
+                    <li>Features</li>
+                    <li>Blog</li>
+                    <li>News</li>
+                    <li>Contact</li>
+                    <li>Compliance</li>
+                    <li>Partners</li>
+                    <li>Career
+                    </li>
+                    <li>Privacy policy</li>
                 </ul>
             </div>   
             <div className='footer-2'>
-                <h5>Product</h5>
+                <h5>Developer</h5>
                 <ul>
-                    <li>Certficate</li>
-                    <li>Certficate</li>
-                    <li>Certficate</li>
-                    <li>Certficate</li>
-                    <li>Certficate</li>
+                    <li>Get Started</li>
+                    <li>API
+                    </li>
+                    <li>Web SDK</li>
+                    <li>iOS SDK</li>
+                    <li>Android SDK</li>
                 </ul>
             </div>   
             <div className='footer-2'>
-                <h5>Product</h5>
+                <h5>Resources</h5>
                 <ul>
-                    <li>Certficate</li>
-                    <li>Certficate</li>
-                    <li>Certficate</li>
-                    <li>Certficate</li>
-                    <li>Certficate</li>
+                    <li>Status</li>
+                    <li>Support</li>
+                    <li>Updates</li>
+                    <li>documentation</li>
+                    
                 </ul>
             </div>    
     </div>
