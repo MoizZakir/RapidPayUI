@@ -40,6 +40,7 @@
 @media (max-width:960px) {
     .homescreen4-section1{
         width: 95%;
+        padding: 0px 10px;
     }
     .frameworks{
         width: 100%;
@@ -48,7 +49,12 @@
         width: 100%;
     }
     .homescreen4-section2{
+        padding-left: 10px;
         width: 95%;
+    }
+    .homescreen4-section2 textarea{
+        width: 100%;
+
     }
     
 }

@@ -1,0 +1,118 @@
+.homescreen6{
+    padding: 0 70px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    display: flex;
+    padding-right: 20px;
+    flex-wrap: wrap;
+    
+}
+.homescreen6-section1{
+    padding-bottom: 10px;
+    border: 1px solid rgb(167, 168, 167);
+    flex: 1;
+    min-height: 350px;
+    padding-left: 30px;
+    padding-top: 25px;
+    margin-top: 35px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-right: none;
+}
+
+.homescreen6-section1 button{
+    padding: 15px 25px;
+    margin-top: 70px;
+    background-color: blue;
+    width: 300px;
+    color: white;
+    border: none;
+    border-radius:8px
+}
+
+.homescreen6-section1 p{
+    margin-top: 10px;
+    font-size: 15px;
+    color: gray;
+}
+.homescreen6-section1 ul li{
+    display: flex;
+    gap: 10px;
+}
+.homescreen6-section1 ul{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+    list-style: none;
+    padding-left: 10px;
+    color: gray;
+}
+.homescreen6-section1 ul span{
+    color:purple
+}
+
+
+
+.homescreen6-section2{
+    border-radius: 30px;
+    border: 1px solid rgb(167, 168, 167);
+    padding-left: 30px;
+    padding-top: 40px;
+    padding-bottom: 10px;
+
+    min-height: 459px;
+    flex: 2;
+}
+.homescreen6-section2 h4{
+    color: green;
+    letter-spacing: 1px;
+}
+.homescreen6-section2 p{
+    color: gray;
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+
+.lists{
+    display: flex;
+    /* gap: 20px; */
+    /* justify-content: space-around; */
+    padding-right: 50px;
+}
+.lists ul li{
+    display: flex;
+    gap: 10px;
+}
+.lists  ul{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 20px;
+    list-style: none;
+    padding-left: 10px;
+    color: gray;
+}
+.lists  ul span{
+    color:purple
+}
+@media (max-width:950px) {
+    .homescreen6{
+        padding: 100px 10px;
+        gap: 10px;
+    }
+    .homescreen6-section1{
+        width: 90%;
+    }
+    .homescreen6-section2{
+        width: 90%;
+    }
+    .lists{
+        padding-left: 0px;
+        padding-right: 5px;
+    }
+    .homescreen6-section1 button{
+        width: 250px;
+    }
+}

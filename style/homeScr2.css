@@ -91,3 +91,11 @@
     transition: background-color 0.3s;
     z-index: 1;
 }
+@media(max-width:900px){
+    .HomeScreen2{
+        padding: 50px 10px;
+    }
+    .box{
+        width: 95%;
+    }
+}

@@ -36,6 +36,10 @@ color: gray;
 
 }
 
+.footer-2 ul li{
+    cursor: pointer;
+}
+
 @media (max-width:1050px ){
     .Footer{
         gap:0px

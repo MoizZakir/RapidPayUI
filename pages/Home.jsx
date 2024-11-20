@@ -6,6 +6,7 @@ import HomeScreen3 from '../components/HomeScreen3'
 import HomeScreen4 from '../components/HomeScreen4'
 import HomeScreen5 from '../components/HomeScreen5'
 import Footer from '../components/Footer'
+import HomeScreen6 from '../components/HomeScreen6'
 
 const Home = () => {
   return (
@@ -16,6 +17,7 @@ const Home = () => {
         <HomeScreen3/>
         <HomeScreen4/>
         <HomeScreen5/>
+        <HomeScreen6/>
         <Footer/>
     </div>
   )
