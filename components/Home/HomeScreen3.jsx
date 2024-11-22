@@ -1,6 +1,6 @@
 import React from 'react'
-import '../style/homeScr3.css'
-import img from '../src/assets/react.svg'
+import '../../style/Home/homeScr3.css'
+import img from '../../src/assets/react.svg'
 
 const HomeScreen3 = () => {
   return (

@@ -1,5 +1,5 @@
 import React from 'react'
-import '../style/homescr4.css'
+import '../../style/Home/homescr4.css'
 import { RiAndroidFill, RiFlutterFill } from 'react-icons/ri'
 import { FaApple, FaChrome, FaJava, FaReact } from 'react-icons/fa'
 import { IoLogoJavascript, IoLogoWindows } from 'react-icons/io'
