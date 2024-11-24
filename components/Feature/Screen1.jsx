@@ -25,6 +25,7 @@ const Screen1 = () => {
         <Tables/>
         <Tables/>
         
+        
 
     </div>
   )

@@ -1,0 +1,89 @@
+.blog-screen1{
+    padding:0 50px ;
+    padding-top: 70px;
+}
+.blog-screen1 h2{
+    text-align: center;
+ 
+}
+.lines{
+    width: 100px;
+    height: 3px;
+    background-color: blue;
+    margin: 10px auto;
+}
+.parahead{
+    text-align: center;
+    color: gray;
+    margin-top: 30px;
+    font-size: 17px;
+}
+.blog{
+    width: 100%;
+    /* border: 1px solid black; */
+    min-height: 80vh;
+    display: flex;
+    /* justify-content: space-between; */
+    gap:70px;
+    flex-wrap: wrap;
+    position: relative;
+}
+.blog .blogs{
+    width: 45%;
+    height:500px;
+    /* border: 3px solid black; */
+    position: relative;
+
+}
+.blog .blogs img{
+    width: 100%;
+    min-height: 90%;
+    object-fit: contain;
+    border-radius: 10px;
+}
+.content {
+    width: 94%;
+    background-color: rgb(255, 255, 255);
+    padding: 20px 20px;
+    left: 15px;
+    height: 200px;
+    position: absolute;
+    border-radius: 10px;
+    bottom: 50px;
+    box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+    
+}
+.content h5{
+    font-size: 18px;
+    color: black;
+}
+.content p{
+    font-size: 15px;
+    overflow: hidden;
+    text-overflow: ellipsis; 
+    
+}
+.blog .blogs img:hover{
+    transform: scale(1.1);
+    transition: all 0.3s ease;
+}
+@media (max-width: 768px){
+    .blog .blogs{
+        width: 100%;
+        
+    }
+    .content{
+        padding: 20px 10px;
+        width: 85%;
+        height: 250px;
+    }
+    .content h3{
+        font-size: 15px;
+        white-space: nowrap; 
+        width: 50px; 
+        overflow: hidden;
+        text-overflow: ellipsis; 
+        
+    }
+    
+}

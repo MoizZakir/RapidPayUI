@@ -6,6 +6,7 @@ import Home from '../pages/Home'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import About from '../pages/About'
 import Feature from '../pages/Feature'
+import Blog from '../pages/Blog'
 
 function App() {
   
@@ -17,6 +18,7 @@ function App() {
       <Route exact path="/" element={<Home/>} />
       <Route exact path="/about" element={<About/>} />
       <Route exact path="/feature" element={<Feature/>} />
+      <Route exact path="/blog" element={<Blog/>} />
 
         
     </Routes>
