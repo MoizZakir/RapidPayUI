@@ -5,6 +5,7 @@ import './App.css'
 import Home from '../pages/Home'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import About from '../pages/About'
+import Feature from '../pages/Feature'
 
 function App() {
   
@@ -15,6 +16,7 @@ function App() {
     <Routes>
       <Route exact path="/" element={<Home/>} />
       <Route exact path="/about" element={<About/>} />
+      <Route exact path="/feature" element={<Feature/>} />
 
         
     </Routes>

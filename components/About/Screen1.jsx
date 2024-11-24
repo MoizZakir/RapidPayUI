@@ -24,7 +24,7 @@ const Screen1 = () => {
                       the revivable computers and laptops both found common ground in 
                       building the future of POS payments for merchants. As their team grew,
                        so did their ambition to build payments infrastructure as a service for
-                        the MENA region and beyond. Today, NearPay boasts around 30 employees 
+                        the MENA region and beyond. Today, RapidPay boasts around 30 employees 
                         from over 7 nationalities around the globe all eager to continue building
                          payments infrastructure as a service for the region and beyond.</p>
 

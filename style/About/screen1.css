@@ -34,14 +34,16 @@
     justify-content: center;
     gap:30px;
     min-height: 100vh;
-    background-color: rgb(238, 237, 237);
+    background-color: rgb(85, 144, 255);
 }
 
 .image{
     width: 45%;
     height: 100%;
     background-color: white;
+    background-color: rgb(85, 144, 255);
     background-color: rgb(238, 237, 237);
+    background-color: rgb(85, 144, 255);
     /* background-color: rgb(238, 237, 237); */
     position: relative;
     
@@ -54,9 +56,10 @@
     
 }
 .text p{
-    line-height: 28px;
-    font-size: 22px;
-    color:rgb(77, 76, 76);
+    line-height: 30px;
+    font-size: 23px;
+    color:rgb(255, 255, 255);
+    letter-spacing: 1px;
     padding: 0px 17px;
 }
 
@@ -111,7 +114,7 @@
     width: 340px;
     padding: 0px 120px;
     height: 120px;
-    background-color: rgb(238, 237, 237);
+    background-color: rgb(135, 245, 92);
     object-fit: contain;
     
 
