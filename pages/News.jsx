@@ -1,15 +1,18 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
+import Screen1 from '../components/News/Screen1'
 import Footer from '../components/Footer'
-import Screen1 from '../components/Blog/Screen1'
 
-const Blog = () => {
+const News = () => {
   return (
     <div>
-        <Navbar />
+        <Navbar/>
         <Screen1/>
-        <Footer/>    </div>
+        <Footer/>
+
+
+    </div>
   )
 }
 
-export default Blog
+export default News
