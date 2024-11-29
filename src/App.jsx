@@ -9,6 +9,7 @@ import Feature from '../pages/Feature'
 import Blog from '../pages/Blog'
 import News from '../pages/News'
 import SingleNews from '../pages/SingleNews'
+import Contact from '../pages/Contact'
 
 function App() {
   
@@ -23,6 +24,7 @@ function App() {
       <Route exact path="/blog" element={<Blog/>} />
       <Route exact path="/news" element={<News/>} />
       <Route exact path="/news/:id" element={<SingleNews/>} />
+      <Route exact path="/contact" element={<Contact/>} />
 
         
     </Routes>

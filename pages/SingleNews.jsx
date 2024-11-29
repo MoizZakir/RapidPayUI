@@ -1,11 +1,14 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
+import Screen2 from '../components/News/Screen2'
+import Footer from '../components/Footer'
 
 const SingleNews = () => {
   return (
     <div>
         <Navbar/>
-        singleNews
+        <Screen2/>
+        <Footer/>
     </div>
   )
 }
