@@ -1,0 +1,28 @@
+.level{
+    display: flex;
+    flex-wrap: wrap;
+}
+.level .section1{
+width: 20%;
+border: 1px solid rgb(255, 255, 255);
+}
+.level .section2{
+width: 80%;
+border: 1px solid rgb(255, 255, 255);
+display: flex;
+justify-content: space-around;
+padding: 10px 20px;
+flex-wrap: wrap;
+}
+
+@media (max-width:1000px) {
+    .level .section1{
+        width: 100%;
+        text-align: center;
+    }
+    .level .section2{
+        width: 100%;
+        padding: 10px 10px;
+    }
+    
+}
