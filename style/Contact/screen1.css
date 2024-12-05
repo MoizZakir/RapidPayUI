@@ -31,6 +31,7 @@
 }
 form{
     display: flex;
+    
     flex-wrap: wrap;
     justify-content: space-between;
 }
@@ -63,6 +64,13 @@ form{
     border-radius: 8px;
     
     border: 1px solid rgb(207, 207, 207);
+}
+.butn{
+    padding: 5px 18px;
+    border: none;
+    background-color: green;
+    color: white;
+    border-radius: 8px;
 }
 .type{
     width: 45%;

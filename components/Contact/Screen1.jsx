@@ -1,7 +1,8 @@
-import React from 'react'
+import React, { useState } from 'react'
 import '../../style/Contact/screen1.css'
 
 const Screen1 = () => {
+  const [type, setType] = useState(true)
   return (
     <div className='contact-screen1'>
       <div className='section1'>
@@ -46,12 +47,12 @@ const Screen1 = () => {
 
         <div style={{width:'100%', display:"flex",flexWrap:'wrap', justifyContent:'space-between', position:'relative'} }>
             <label style={{fontWeight:'bold', position:'absolute'}} for="message">Select your type</label>
-          <div className='type' style={{}}>
+          <div className='type' onClick={()=>setType(true)} style={{border:type?'2px solid blue':'1px solid rgb(219, 219, 219)'}}>
           <p style={{fontWeight:'bold'}}>Merchants</p>
           <p style={{fontSize:"14px", color:'gray'}}>Provides solutions for merchants to enable them to sale to their consumers.</p>
 
           </div>
-          <div className='type' style={{}}>
+          <div className='type' onClick={()=>setType(false)} style={{border:!type?'2px solid blue':'1px solid rgb(219, 219, 219)'}}>
             <p style={{fontWeight:'bold'}}>Merchants</p>
             <p style={{fontSize:"14px", color:'gray'}}>Accept Payment from credits cards</p>
 
@@ -62,7 +63,7 @@ const Screen1 = () => {
         </div>
         
 
-        <div style={{width:"100%", marginTop:'10px', display:'flex',flexWrap:'wrap', justifyContent:'space-between'}}>
+        <div style={{width:"100%",display:type?'flex':'none', marginTop:'10px',flexWrap:'wrap', justifyContent:'space-between'}}>
         <div class="form-group">
             <label for="phone">How many merchants do you have?
 *</label>
@@ -76,22 +77,49 @@ const Screen1 = () => {
         <div class="form-group">
             <label for="phone">Are you a bank or payment services provider?
 *</label>
-            <input style={{height:"20px", width:"15px"}} type="radio" id="phone" name="phone" required />Bank
-            <input style={{height:"20px", width:"15px"}} type="radio" id="phone" name="phone" required />Payment Services Provider
-            <input style={{height:"20px", width:"15px"}} type="radio" id="phone" name="phone" required />Others
-  
-        </div>
+
+           <div style={{display:'flex',alignItems:'center',gap:'8px'}}> <input style={{height:"20px", width:"15px", margin:'5px 0'}} type="radio" id="phone" name="phone" required /> <span>Bank</span> </div>
+           <div style={{display:'flex',alignItems:'center',gap:'8px'}}> <input style={{height:"20px", width:"15px", margin:'5px 0'}} type="radio" id="phone" name="phone" required /> <span>Payement </span> </div>
+           <div style={{display:'flex',alignItems:'center',gap:'8px'}}> <input style={{height:"20px", width:"15px", margin:'5px 0'}} type="radio" id="phone" name="phone" required /> <span>Other</span> </div>
+            </div>
+        
        
+        </div>
+
+        <div style={{width:"100%",display:!type?'flex':'none', marginTop:'10px',flexWrap:'wrap', justifyContent:'space-between'}}>
+        <div class="form-group">
+            <label for="phone">How many Stores   do you have?
+*</label>
+            <input type="number" id="phone" name="phone" required/>
+        </div>
+        <div class="form-group">
+            <label for="phone">What are your total sale?
+*</label>
+            <input type="number" id="phone" name="phone" required/>
+        </div>
+        <div class="form-group" style={{width:'100%'}}>
+            <label for="phone">How many employees do you have?
+
+*</label>
+            <input type="number" id="phone" name="phone" required/>
+        </div>
+        <div class="form-group" style={{width:'100%'}}>
+            <label for="phone">Which bank are you currently using?
+            
+
+*</label>
+            <input type="number" id="phone" name="phone" required/>
+        </div>
         </div>
         <div class="form-group" style={{width:"100%"}}>
             <label for="phone">Do you have any Application?
 *</label>
-            <input style={{height:"20px", width:"15px"}} type="radio" id="phone" name="phone" required />Yes
-            <input style={{height:"20px", width:"15px"}} type="radio" id="phone" name="phone" required />No
+<div style={{display:'flex',alignItems:'center',gap:'8px'}}> <input style={{height:"20px", width:"15px", margin:'5px 0'}} type="radio" id="phone" name="phone" required /> <span>Yes</span> </div>
+<div style={{display:'flex',alignItems:'center',gap:'8px'}}> <input style={{height:"20px", width:"15px", margin:'5px 0'}} type="radio" id="phone" name="phone" required /> <span>No</span> </div>
            
         </div>
-        <div>
-            <button>Submit</button>
+        <div >
+            <button className='butn'>Submit</button>
         </div>
         
     </form>
