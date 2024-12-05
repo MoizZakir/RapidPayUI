@@ -70,7 +70,42 @@ border: 1px solid blue;
     padding-top: 70px;
 }
 
-
+.country{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+.country-div{
+    width: 33%;
+    height: 100px;
+    border-radius: 20px;
+    border: 1px solid rgb(219, 219, 219);
+    display: flex;
+    margin-top: 10px;
+    
+    
+    
+}
+.country-div img{
+    width: 70px;
+    height: 80px;
+    
+    object-fit: contain;
+}
+.country-div span{
+    border: 1px solid rgb(182, 182, 182);
+    width: 160px;
+    padding: 2px 5px;
+    font-size: 14px;
+    padding-right: 20px;
+    border-radius: 20px;
+    color: rgb(126, 31, 214);
+    background-color: rgb(179, 215, 247);
+}
+.country-div div{
+    padding-top: 15px;
+}
 
 
 
@@ -80,10 +115,10 @@ border: 1px solid blue;
 @media (max-width:1000px) {
     .partners-company div{
         width: 49%;
-        gap: 2px;
+       gap: 0px;
     }
     .partners-company {
-        justify-content: space-between;
+        justify-content: center;
     }
     .customers{
         justify-content: space-between;
@@ -93,6 +128,9 @@ border: 1px solid blue;
     }
 }
 @media (max-width:900px){
+    .country-div{
+        width: 49%;
+    }
     .customers div{
         width: 30%;
     }
@@ -108,6 +146,9 @@ border: 1px solid blue;
     }
     .partner-screen1 .p1{
         padding: 15px 10px;
+    }
+    .country-div{
+        width: 100%;
     }
 
 

@@ -1,5 +1,6 @@
 import React from 'react'
 import '../../style/Partners/Screen1.css'
+import { GoDotFill } from 'react-icons/go'
 
 const Screen1 = () => {
   return (
@@ -79,8 +80,64 @@ const Screen1 = () => {
         </div>
 
         <div className="section3">
-        <h2>Where we are ?</h2>
+        <h2>Where are we ?</h2>
         <div className='lines'></div>
+        <div className="country">
+            <div className='country-div'>
+                <img src="https://nearpay.io/_next/static/media/saudi-arabia.bcbb8219.svg" alt="" />
+                <div><span> <GoDotFill color='blue' />live</span>
+                <h5>Saudia</h5>
+                </div>
+                 </div>
+                 <div className='country-div'>
+                <img src="https://nearpay.io/_next/static/media/saudi-arabia.bcbb8219.svg" alt="" />
+                <div><span> <GoDotFill color='blue' />live</span>
+                <h5>Saudia</h5>
+                </div>
+                 </div>
+                 <div className='country-div'>
+                <img src="https://nearpay.io/_next/static/media/kenya.2367e372.svg" alt="" />
+                <div><span> <GoDotFill color='blue' />live</span>
+                <h5>Saudia</h5>
+                </div>
+                 </div>
+                 <div className='country-div'>
+                <img src="https://nearpay.io/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fnigeria.7ef8592c.png&w=640&q=75" alt="" />
+                <div><span> <GoDotFill color='blue' />live</span>
+                <h5>Saudia</h5>
+                </div>
+                 </div>
+                 <div className='country-div'>
+                <img src="https://nearpay.io/_ipx/w_1920,q_75/%2F_next%2Fstatic%2Fmedia%2Fjordan.b8adab69.webp?url=%2F_next%2Fstatic%2Fmedia%2Fjordan.b8adab69.webp&w=1920&q=75" alt="" />
+                <div><span> <GoDotFill color='blue' />live</span>
+                <h5>Saudia</h5>
+                </div>
+                 </div>
+                 <div className='country-div'>
+                <img src="https://nearpay.io/_ipx/w_640,q_75/%2F_next%2Fstatic%2Fmedia%2Funited-states.5f325755.png?url=%2F_next%2Fstatic%2Fmedia%2Funited-states.5f325755.png&w=640&q=75" alt="" />
+                <div><span> <GoDotFill color='blue' />live</span>
+                <h5>Saudia</h5>
+                </div>
+                 </div>
+                 <div className='country-div'>
+                <img src="https://nearpay.io/_next/static/media/saudi-arabia.bcbb8219.svg" alt="" />
+                <div><span> <GoDotFill color='blue' />live</span>
+                <h5>Saudia</h5>
+                </div>
+                 </div>
+                 <div className='country-div'>
+                <img src="https://nearpay.io/_next/static/media/saudi-arabia.bcbb8219.svg" alt="" />
+                <div><span> <GoDotFill color='blue' />live</span>
+                <h5>Saudia</h5>
+                </div>
+                 </div>
+                 <div className='country-div'>
+                <img src="https://nearpay.io/_next/static/media/saudi-arabia.bcbb8219.svg" alt="" />
+                <div><span> <GoDotFill color='blue' />live</span>
+                <h5>Saudia</h5>
+                </div>
+                 </div>
+        </div>
 
         </div>
     </div>
