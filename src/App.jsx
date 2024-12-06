@@ -1,6 +1,4 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
 import Home from '../pages/Home'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
@@ -12,6 +10,7 @@ import SingleNews from '../pages/SingleNews'
 import Contact from '../pages/Contact'
 import Compilance from '../pages/Compilance'
 import Partners from '../pages/Partners'
+import Privacy from '../pages/Privacy'
 
 function App() {
   
@@ -29,6 +28,7 @@ function App() {
       <Route exact path="/contact" element={<Contact/>} />
       <Route exact path="/compile" element={<Compilance/>} />
       <Route exact path="/partners" element={<Partners/>} />
+      <Route exact path="/privacy" element={<Privacy/>} />
 
         
     </Routes>
