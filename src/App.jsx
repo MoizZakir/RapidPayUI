@@ -11,6 +11,7 @@ import Contact from '../pages/Contact'
 import Compilance from '../pages/Compilance'
 import Partners from '../pages/Partners'
 import Privacy from '../pages/Privacy'
+import Career from '../pages/Career'
 
 function App() {
   
@@ -29,6 +30,7 @@ function App() {
       <Route exact path="/compile" element={<Compilance/>} />
       <Route exact path="/partners" element={<Partners/>} />
       <Route exact path="/privacy" element={<Privacy/>} />
+      <Route exact path="/career" element={<Career/>} />
 
         
     </Routes>

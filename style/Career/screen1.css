@@ -1,0 +1,58 @@
+.career-screen1{
+    padding: 0 40px;
+    height: max-content;
+    padding-top: 70px;
+}
+.career-screen1 .section1{
+    height: max-content;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+.section1-sec1{
+    width: 55%;
+    /* border: 1px solid red; */
+    padding-top: 80px;
+    height: max-content;
+    margin-top: 45px;
+}
+.section1-sec1 button{
+    padding:5px 18px;
+    border-radius: 10px;
+    border:1px solid rgb(206, 206, 206)
+    ;
+    color: white;
+    margin-top: 20px;
+    background-color: blueviolet;
+}
+.section1-sec2{
+    width: 40%;
+    /* border: 1px solid rgb(80, 58, 58); */
+    display: flex;
+    justify-content: space-between;
+    gap:2.01px    ;
+    height: max-content;
+    align-items:center;
+    flex-wrap: wrap;
+}
+.section1-sec2 img{
+    margin: 5px 0;
+    width: 31%;
+    object-fit: contain;
+    height: 45%;
+    border-radius: 18px;
+    
+}
+.p2{
+    margin-top: 20px;
+    line-height: 28px;
+    font-size: 17px;
+}
+@media (max-width:1000px) {
+    .section1-sec1{width: 100%;}
+    .section1-sec2{width: 100%;}
+    .career-screen1 .section1{gap: 20px;
+}
+    
+}
