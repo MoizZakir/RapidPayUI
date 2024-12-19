@@ -12,6 +12,9 @@ import Compilance from '../pages/Compilance'
 import Partners from '../pages/Partners'
 import Privacy from '../pages/Privacy'
 import Career from '../pages/Career'
+import Intro from '../pages/Intro'
+import Prepare from '../pages/Prepare'
+import Quick from '../pages/Quick'
 
 function App() {
   
@@ -31,6 +34,9 @@ function App() {
       <Route exact path="/partners" element={<Partners/>} />
       <Route exact path="/privacy" element={<Privacy/>} />
       <Route exact path="/career" element={<Career/>} />
+      <Route exact path="/intro" element={<Intro/>} />
+      <Route exact path="/prepare" element={<Prepare/>} />
+      <Route exact path="/quick" element={<Quick/>} />
 
         
     </Routes>

@@ -1,0 +1,40 @@
+.side{
+    /* border: 1px solid red; */
+    max-height: 88vh;
+    width: 250px;
+    margin-left: 20px;
+    position: sticky;
+    top:80px;
+    
+    
+    overflow-y: scroll;
+}
+.side ul{
+    list-style-type: none;
+}
+.side h5{
+    
+    font-size: 18px;
+    margin: 10px 0;
+}
+.side li{
+    margin: 5px 0;
+    font-size: 14px;
+    color: gray;
+    cursor: pointer;
+    transition: all;
+    transition-duration: 0.5s;
+}
+.side li:hover{
+    color: blue;
+    
+}
+.side div{
+    padding-left: 10px;
+    margin-top: 5px;
+}
+@media (max-width:969px) {
+    .side{
+        display: none;
+    }
+}

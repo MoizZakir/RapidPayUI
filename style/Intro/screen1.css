@@ -1,0 +1,92 @@
+.intro-screen1{
+    padding: 0px 30px;
+    padding-top: 60px;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 50px;
+    gap: 30px;
+    
+    width: 80%;
+}
+.intro-screen1 p{
+    padding-right: 20px;
+    margin: 25px 0;
+}
+.intro-screen1 li{
+    margin: 10px 0;
+}
+.intro-screen1 table{
+    /* border: 1px solid green; */
+    width: 100%;
+}
+tr{
+    width: 100%;
+    display: flex;
+    padding: 20px;
+    border: 1px solid #ebebeb;
+    text-align: left;
+
+}
+tr:first-child{
+    background-color: #3861d3;
+    height: 50px;
+    border-radius: 10px;
+    color: white;
+    padding: 20px;
+    align-items: center;
+}
+th:first-child{
+    flex: 1;
+    /* border: 1px solid green; */
+}
+th:nth-child(2){
+    flex: 3;
+    /* border: 1px solid green; */
+}
+td:first-child{
+    flex: 1;
+    
+    /* border: 1px solid green; */
+}
+td:nth-child(2){
+   flex: 3;
+    /* border: 1px solid green; */
+
+}
+/* th,td{
+    width: 70%;
+    border: 1px solid green;
+}
+th:nth-child(1){
+    width: 30%;
+}
+.td1{
+    width: 30%;
+}
+.td2{
+    width: 70%;
+} */
+
+.intro-screen1 table li{
+    color: rgb(96, 194, 39);
+}
+.intro-screen1 button{
+    margin-top: 20px;
+    background-color: #3861d3;
+    border-radius: 10px;
+    color: white;
+    padding: 5px 18px;
+    border: none;
+}
+.itro-btn{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 20px;
+}
+@media (max-width:969px){
+ 
+    .intro-screen1{
+        width: 99%;
+    }
+}

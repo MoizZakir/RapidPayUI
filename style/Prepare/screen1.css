@@ -1,0 +1,95 @@
+.prepare-screen1{
+    padding: 0px 40px;
+    padding-top: 60px;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 50px;
+    gap: 30px;
+    
+    width: 80%;
+}
+.prepare-screen1 div{
+    margin-top: 20px;
+}
+.prepare-screen1 div p{
+    padding-right: 80px;
+    line-height: 27px;
+}
+
+.prepare-screen1 div ol li{
+    margin: 7px 0;
+    font-size: 14px;
+     color: gray;
+}
+.code{
+    background-color: rgb(14, 14, 19);
+   min-height: 100px;
+   padding-bottom: 10px;
+    width: 70%;
+     margin-bottom: 20px;
+    color: rgb(94, 184, 206);
+}
+.code p{
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.code div{
+   background-color: rgb(46, 46, 78);
+   height: 40px;
+   width: 100%;
+   color: white;
+   padding-left: 20px ;
+   padding-top: 10px;
+   margin: 0px;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.code2{
+    background-color: rgb(14, 14, 19);
+    min-height: 240px;
+    width: 70%;
+    color: rgb(94, 184, 206);
+
+}
+.code2 div{
+    background-color: rgb(46, 46, 78);
+    height: 40px;
+    width: 100%;
+    color: white;
+    padding-left: 20px ;
+    padding-top: 10px;
+    margin: 0px;
+     font-size: 14px;
+     font-family: Arial, Helvetica, sans-serif;
+ }
+ .code2 p{
+    margin-left: 20px;
+    margin-top: 10px;
+    padding: 20px;
+ }
+ .prepare-btn{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 20px;
+}
+.prepare button{
+    margin-top: 20px;
+    background-color: #3861d3;
+    border-radius: 10px;
+    color: white;
+    padding: 5px 18px;
+    border: none;
+}
+@media (max-width:969px){
+ 
+    .prepare-screen1{
+        width: 99%;
+    }
+    .code2{
+        width: 100%;
+    }
+    .code{
+        width: 100%;
+    }
+}
