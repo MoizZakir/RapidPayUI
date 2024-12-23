@@ -15,6 +15,8 @@ import Career from '../pages/Career'
 import Intro from '../pages/Intro'
 import Prepare from '../pages/Prepare'
 import Quick from '../pages/Quick'
+import WebSdk from '../pages/WebSdk'
+import Android from '../pages/Android'
 
 function App() {
   
@@ -37,6 +39,8 @@ function App() {
       <Route exact path="/intro" element={<Intro/>} />
       <Route exact path="/prepare" element={<Prepare/>} />
       <Route exact path="/quick" element={<Quick/>} />
+      <Route exact path="/web-sdk" element={<WebSdk/>} />
+      <Route exact path="/Android-sdk" element={<Android/>} />
 
         
     </Routes>
