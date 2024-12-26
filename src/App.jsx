@@ -17,6 +17,8 @@ import Prepare from '../pages/Prepare'
 import Quick from '../pages/Quick'
 import WebSdk from '../pages/WebSdk'
 import Android from '../pages/Android'
+import FAQ from '../pages/FAQ'
+import Errors from '../pages/Errors'
 
 function App() {
   
@@ -41,6 +43,8 @@ function App() {
       <Route exact path="/quick" element={<Quick/>} />
       <Route exact path="/web-sdk" element={<WebSdk/>} />
       <Route exact path="/Android-sdk" element={<Android/>} />
+      <Route exact path="/faq" element={<FAQ/>} />
+      <Route exact path="/error" element={<Errors/>} />
 
         
     </Routes>

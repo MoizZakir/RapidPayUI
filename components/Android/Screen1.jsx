@@ -1,12 +1,13 @@
 import React from 'react'
 import '../../style/Quick/screen1.css'
+import { useNavigate } from 'react-router-dom'
 
 
 const Screen1 = () => {
-    
+    const navigate=useNavigate()
   return (
     <div className='quick-screen1'>
-        <h3>Android SDK Proxy</h3>
+        <h3 > Android SDK Proxy</h3>
         <p>SDK connect is a service that allows you to connect your app remotely to the SDK using bluetooth , WiFi.</p>
         <div>
             <h5>Before you begin
@@ -58,7 +59,7 @@ const Screen1 = () => {
         </div>
             
  
-            <div className='Quick-btn'>
+            <div id='btn' className='Quick-btn'>
                 <button>Next</button>
             </div>
 
