@@ -20,7 +20,7 @@
     /* border: 1px solid green; */
     width: 100%;
 }
-tr{
+.table tr{
     width: 100%;
     display: flex;
     padding: 20px;
@@ -28,7 +28,7 @@ tr{
     text-align: left;
 
 }
-tr:first-child{
+.table tr:first-child{
     background-color: #3861d3;
     height: 50px;
     border-radius: 10px;
@@ -36,20 +36,20 @@ tr:first-child{
     padding: 20px;
     align-items: center;
 }
-th:first-child{
+.table th:first-child{
     flex: 1;
     /* border: 1px solid green; */
 }
-th:nth-child(2){
+.table th:nth-child(2){
     flex: 3;
     /* border: 1px solid green; */
 }
-td:first-child{
+.table td:first-child{
     flex: 1;
     
     /* border: 1px solid green; */
 }
-td:nth-child(2){
+.table td:nth-child(2){
    flex: 3;
     /* border: 1px solid green; */
 
@@ -68,7 +68,7 @@ th:nth-child(1){
     width: 70%;
 } */
 
-.intro-screen1 table li{
+.intro-screen1 .table li{
     color: rgb(96, 194, 39);
 }
 .intro-screen1 button{

@@ -29,6 +29,10 @@
     color: blue;
     
 }
+.ios:hover{
+    cursor: not-allowed;
+    color: gray;
+}
 .side div{
     padding-left: 10px;
     margin-top: 5px;

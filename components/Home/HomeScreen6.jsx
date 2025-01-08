@@ -3,7 +3,7 @@ import '../../style/Home/homeScr6.css'
 
 const HomeScreen6 = () => {
   return (
-    <div className='homescreen6'>
+    <div className='homescreen6' id='pricing'>
         <div className='homescreen6-section1'>
             <h3>Merchant</h3>
             <p>Accept payment from consumers cards.</p>

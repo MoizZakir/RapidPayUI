@@ -4,9 +4,9 @@ import { MdStore } from 'react-icons/md'
 
 const HomeScreen5 = () => {
   return (
-    <div className='homeScreen5'>
+    <div className='homeScreen5' id='features'>
       <div className="homeScreen5-first">
-        <img src="https://nearpay.io/_next/static/media/mobile-tablet-sdk-left.8b27d2d6.svg" alt="" />
+        <img src="https://rapidpay.io/_next/static/media/mobile-tablet-sdk-left.8b27d2d6.svg" alt="" />
       </div>
       <div className="homeScreen5-second">
         <h1>Create new and innovative transaction experiences</h1>

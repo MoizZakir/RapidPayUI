@@ -4,7 +4,7 @@ import img from '../../src/assets/react.svg'
 
 const HomeScreen3 = () => {
   return (
-    <div className='homescreen3'>
+    <div className='homescreen3' id='infrastucture'>
         <h1>Fully secure and compliant</h1>
         <p>We have done all the heavy lifting on compliance,
              certification and building the full<br/> stack payments infrastructure 

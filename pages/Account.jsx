@@ -1,9 +1,12 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
 import Side from '../components/Side'
-import Screen1 from '../components/Android/Screen1'
+import Screen1 from '../components/AccountApi/Screen1'
 
-const Android = () => {
+const Account = () => {
+ 
+
+
   return (
     <div style={{}} >
         <Navbar/>
@@ -16,4 +19,4 @@ const Android = () => {
   )
 }
 
-export default Android
+export default Account 

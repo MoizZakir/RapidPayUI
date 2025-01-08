@@ -9,7 +9,7 @@ const Footer = () => {
        <div className='footer-1'>
         <h3>RapidPay</h3>
         <p>Start taking in person NFC card payments in under 30 minutes using
-            <br/> the NearPay SDK</p>
+            <br/> the rapidpay SDK</p>
         <div style={{display:'flex',gap:"10px"}}>
             
             <FaLinkedin size={25}/>

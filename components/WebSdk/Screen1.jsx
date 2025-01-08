@@ -1,5 +1,7 @@
 import React from 'react'
 import '../../style/Quick/screen1.css'
+import ReactDOM from 'react-dom'
+import ReactCodeSinppet from 'react-code-snippet'
 
 
 const Screen1 = () => {
@@ -17,129 +19,106 @@ const Screen1 = () => {
         <div>
             <h4>Installation</h4>
             <p>To install the package use</p>
+            <ReactCodeSinppet lang="jsx" code={` npm i @rapidpaydev/web-sdk`}>
+    <div>React Native</div>
+  </ReactCodeSinppet>
+           
         
         
-        <div className='code' style={{width:'100%', padding:'10px',height:'max-content'}}>
         
-      <p>   
-      npm i @rapidpaydev/web-sdk
-</p>
-       </div>
       <h4>Remote Connection</h4>
-        <div className='code' style={{width:'100%'}}>
-        
-      <p>  
-      import  &#10627;RemotePos, Environments &#10628;<br/><br/>
-      const pos = new RemotePos&#10627;&#10627;environment: Environments.sandbox &#10628;&#10628;
-</p>
-       </div>
+            <ReactCodeSinppet lang="jsx" code={` import { RemotePos, Environments } from "@rapidpaydev/web-sdk";
+
+const pos = new RemotePos({ environment: Environments.sandbox });`}>
+    <div>React Native</div>
+  </ReactCodeSinppet>
+       
+       
        <p>This object should only be created once, followed by creating a session with it.</p>
-        <div className='code' style={{width:'100%'}}>
-      <p>  
-        const session = await pos.createSession(&#10627;pairing_code: "123456"  &#10628;); <br/><br/>
-        console.log("token: ", session.token);<br/><br/>
-        localStorage.setItem("remote-token", session.token);<br/><br/>
-     
-</p>
-       </div>
+            <ReactCodeSinppet lang="jsx" code={`const session = await pos.createSession({ pairing_code: "123456" });
+
+console.log("token: ", session.token);
+
+localStorage.setItem("remote-token", session.token);`}>
+    <div>React Native</div>
+  </ReactCodeSinppet>
+        
+       
        
         
         </div>
             <p>session token will be used in the next connections, so you can save it in local storage to connect with the old token use the method pos.getSession</p>
-            <div className='code' style={{width:'100%'}}>
-      <p>  
-      const session = await pos.getSession(&#10627; token: "hkjasd678asd8yhkjasd8utg" &#10628;); <br/><br/>
-        
-     
-</p>
-
-       </div>
+            <ReactCodeSinppet lang="jsx" code={`const session = await pos.getSession({ token: "hkjasd678asd8yhkjasd8utg" });`}>
+    <div>React Native</div>
+  </ReactCodeSinppet>
+            
        <div>
         <h4>USB Connection</h4>
         <p>To connect with USBPos first create a POS object</p>
-        <div className="code">
-          import &#10627;USBPos, Environments &#10628; from "@rapidpaydev/web-sdk";
-          <br />
-          <br />
-          const pos = new USBPos(&#10627; environment: Environments.sandbox &#10628; );
-        </div>
+        <ReactCodeSinppet lang="jsx" code={`import { USBPos, Environments } from "@rapidpaydev/web-sdk";
+
+const pos = new USBPos({ environment: Environments.sandbox });`}>
+    <div>React Native</div>
+  </ReactCodeSinppet>
         <p>This POS object should be instantiated once before creating a session with it.</p>
-        <div className="code">
-        const session = await pos.createSession();<br/><br/>
+        <ReactCodeSinppet lang="jsx" code={`const session = await pos.createSession();
 
-console.log("token: ", session.token);<br/><br/>
+console.log("token: ", session.token);
 
-localStorage.setItem("usb-token", session.token);
-        </div>
+localStorage.setItem("usb-token", session.token);`}>
+    <div>React Native</div>
+  </ReactCodeSinppet>
         <p>session token will be used in the next connections, so you can save it in local storage to connect with the old token use the method pos.getSession</p>
-        <div className="code">
-        const session = await pos.getSession(&#10627; token: "hkjasd678asd8yhkjasd8utg" &#10628;);
-        </div>
+        <ReactCodeSinppet lang="jsx" code={`// use token saved from old connection
+const session = await pos.getSession({ token: "hkjasd678asd8yhkjasd8utg" });`}>
+    <div>React Native</div>
+  </ReactCodeSinppet>
        </div>
        <div>
         <h4>Terminal</h4>
         <p>The Terminal object is obtained via session.getTerminal, handles queries and transactions.</p>
-        <div className="code">
-          <p>const terminal = await session.getTerminal();</p>
-
-        </div>
+        <ReactCodeSinppet lang="jsx" code={`const terminal = await session.getTerminal();`}>
+    <div>React Native</div>
+  </ReactCodeSinppet>
         <p>You must know these examples that demonstrate how to use the terminal object.</p>
-        <div className="code" style={{height:'80vh', overflowY:'scroll'}}>
-          <p>terminal.getInfo(); <br/><br/>
-          terminl.purchase(&#10627; amount: 100  &#10628;); <br/><br/>
-          terminal.refund(&#10627;<br>
-          </br>
-          amount: 100,
-          <br/>
-          <br/>
-          original_transaction_uuid: "9e5e0d5c-3ce9-414a-88b1-9e09587b7266",
-          <br/>
-          <br/>
-          &#10628;);
-          <br />
-          <br />
-          terminal.reverse(&#10627; 
-          <br />
-          <br />
-          original_transaction_uuid: "9e5e0d5c-3ce9-414a-88b1-9e09587b7266",
-          <br />
-          <br />
-          &#10628;);
-          <br />
-          <br />
-          terminal.reconcile({});
-          <br />
-          <br />
-          terminal.getTransaction(&#10627; 
-          <br />
-          <br />
-          transaction_uuid: "9e5e0d5c-3ce9-414a-88b1-9e09587b7266",
-          <br />
-          <br />
-          &#10628;);
-          <br />
-          <br />
-          terminal.getTransactionsList(&#10627; page: 1, page_size: 10  &#10628;);
-          <br />
-          <br />
-          terminal.getReconciliation(&#10627; 
-          <br />
-          <br />
-          transaction_uuid: "9e5e0d5c-3ce9-414a-88b1-9e09587b7266",
-          <br />
-          <br />
-          &#10628;);
-          <br />
-          <br />
-          terminal.getReconciliationsList(&#10627; page: 1, page_size: 10  &#10628;);
-          <br />
-          <br />
-          terminal.stateListener((state) => console.log(state));
+       
+        <ReactCodeSinppet lang="jsx" code={`// gets information about this terminal
+terminal.getInfo();
 
+// will generate a purchase transaction job with 1 SR
+terminl.purchase({ amount: 100 });
 
+// will generate a refund transaction job with 1 SR
+terminal.refund({
+  amount: 100,
+  original_transaction_uuid: "9e5e0d5c-3ce9-414a-88b1-9e09587b7266",
+});
 
-             </p>
-        </div>
+// reverse a transaction with (original_transaction_uuid)
+terminal.reverse({
+  original_transaction_uuid: "9e5e0d5c-3ce9-414a-88b1-9e09587b7266",
+});
+
+// reconcile this terminal
+terminal.reconcile({});
+
+// get a transaction with uuid
+terminal.getTransaction({
+  transaction_uuid: "9e5e0d5c-3ce9-414a-88b1-9e09587b7266",
+}); 
+
+// reconcile this terminal
+terminal.getTransactionsList({ page: 1, page_size: 10 });
+
+terminal.getReconciliation({
+  reconciliation_uuid: "9e5e0d5c-3ce9-414a-88b1-9e09587b7266",
+});
+
+terminal.getReconciliationsList({ page: 1, page_size: 10 });
+
+terminal.stateListener((state) => console.log(state));`}>
+    <div>React Native</div>
+  </ReactCodeSinppet>
        </div>
             <div className='Quick-btn'>
                 <button>Next</button>

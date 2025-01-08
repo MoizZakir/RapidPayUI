@@ -1,6 +1,8 @@
 import React from 'react'
 import '../../style/Quick/screen1.css'
 import { useNavigate } from 'react-router-dom'
+import ReactDOM from 'react-dom'
+import ReactCodeSinppet from 'react-code-snippet'
 
 
 const Screen1 = () => {
@@ -12,7 +14,7 @@ const Screen1 = () => {
         <div>
             <h5>Before you begin
             </h5>
-        <p>The NearPay team is required to create a sandbox account for you using your email and phone number, as well as your Android package name to initiate this integration process.</p>
+        <p>The rapidpay team is required to create a sandbox account for you using your email and phone number, as well as your Android package name to initiate this integration process.</p>
        
         
         </div>
@@ -23,37 +25,31 @@ const Screen1 = () => {
             <li>1.Add gradle dependency by adding the following code to the your Android App build.gradle</li>
           
         </ol>
-        <div className='code' style={{width:'100%'}}>
-       
-      <p>  dependencies &#10627; <br/>
-      implementation 'io.nearpay:nearpay-proxy-v2:0.0.2' <br /> &#10628;
-</p>
-       </div>
+        <ReactCodeSinppet lang="jsx" code={` dependencies {
+    implementation 'io.rapidpay:rapidpay-proxy-v2:0.0.2'
+}`}>
+           <div>Java</div>
+         </ReactCodeSinppet>
        <ol>
-            <li>2.Create single instance of NearPay object with context wherever you need.</li>
+            <li>2.Create single instance of rapidpay object with context wherever you need.</li>
           
         </ol>
-        <div className='code' style={{width:'100%'}}>
-        <div>Java & Kotlin</div>
-      <p>  
-      val nearPay = NearPay.Builder()<br/><br/>
-        .port(8000)<br/><br/>
-        .context(requireContext())<br/><br/>
-        .environment(environment)<br/><br/>
-        .networkConfiguration(NetworkConfiguration.SIM_PREFERRED)<br/><br/>
-        .loadingUi(true)<br/><br/>
-        .build()<br/><br/>
-        
-</p>
-       </div>
+        <ReactCodeSinppet lang="jsx" code={`val rapidpayProxy = rapidpayProxy.Builder()
+                    .port(8080)
+                    .context(requireContext())
+                    .environment(environment)
+                    .networkConfiguration(NetworkConfiguration.SIM_PREFERRED)
+                    .loadingUi(true)
+                    .build()`}>
+           <div>Java</div>
+         </ReactCodeSinppet>
+       
       <h4>Show Connection</h4>
       <p>Display a view with current state and option to connect with two different method (bluetooth and websocket) and disconnect.</p>
-        <div className='code' style={{width:'100%'}}>
+        <ReactCodeSinppet lang="jsx" code={`rapidpayProxy.showConnection();`}>
+           <div>Java</div>
+         </ReactCodeSinppet>
        
-      <p>  
-      nearpayProxy.showConnection();
-</p>
-       </div>
        
         
         </div>

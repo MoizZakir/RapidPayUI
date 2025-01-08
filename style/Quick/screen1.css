@@ -9,6 +9,9 @@
     
     width: 80%;
 }
+.quick-screen1 ol li{
+    margin: 20px 0;
+}
 .quick-screen1 ol{
     list-style: none;
 }
@@ -28,5 +31,15 @@
 
 @media (max-width:969px){
  
-    
+    .quick-screen1{
+        padding: 0px 25px;
+        padding-top: 60px;
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 50px;
+        gap: 30px;
+        
+        width: 95%;
+    }
 }

@@ -12,7 +12,7 @@ const Screen1 = () => {
 <div className='blog'>
 
 <div className='blogs'>
-    <img src='https://nearpay.io/_next/static/media/blog-2.1b6fa09e.png'/>
+    <img src='https://rapidpay.io/_next/static/media/blog-2.1b6fa09e.png'/>
     <div className='content'>
         <h5>
         Payment Solutions for Start-ups</h5>
@@ -22,7 +22,7 @@ const Screen1 = () => {
 
 </div>
 <div className='blogs'>
-    <img src='https://nearpay.io/_next/static/media/blog-2.1b6fa09e.png'/>
+    <img src='https://rapidpay.io/_next/static/media/blog-2.1b6fa09e.png'/>
     <div className='content'>
         <h5>
         Payment Solutions for Start-ups</h5>
@@ -32,7 +32,7 @@ const Screen1 = () => {
 
 </div>
 <div className='blogs'>
-    <img src='https://nearpay.io/_next/static/media/blog-2.1b6fa09e.png'/>
+    <img src='https://rapidpay.io/_next/static/media/blog-2.1b6fa09e.png'/>
     <div className='content'>
         <h5>
         Payment Solutions for Start-ups</h5>
@@ -42,7 +42,7 @@ const Screen1 = () => {
 
 </div>
 <div className='blogs'>
-    <img src='https://nearpay.io/_next/static/media/blog-2.1b6fa09e.png'/>
+    <img src='https://rapidpay.io/_next/static/media/blog-2.1b6fa09e.png'/>
     <div className='content'>
         <h5>
         Payment Solutions for Start-ups</h5>
@@ -52,7 +52,7 @@ const Screen1 = () => {
 
 </div>
 <div className='blogs'>
-    <img src='https://nearpay.io/_next/static/media/blog-2.1b6fa09e.png'/>
+    <img src='https://rapidpay.io/_next/static/media/blog-2.1b6fa09e.png'/>
     <div className='content'>
         <h5>
         Payment Solutions for Start-ups</h5>

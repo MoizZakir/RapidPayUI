@@ -19,6 +19,11 @@ import WebSdk from '../pages/WebSdk'
 import Android from '../pages/Android'
 import FAQ from '../pages/FAQ'
 import Errors from '../pages/Errors'
+import SDK from '../pages/SDK'
+import PayementPlugin from '../pages/PayementPlugin'
+import WhiteLabel from '../pages/White-label'
+import Merchant from '../pages/Merchant'
+import Account from '../pages/Account'
 
 function App() {
   
@@ -45,6 +50,11 @@ function App() {
       <Route exact path="/Android-sdk" element={<Android/>} />
       <Route exact path="/faq" element={<FAQ/>} />
       <Route exact path="/error" element={<Errors/>} />
+      <Route exact path="/payment-plugin" element={<PayementPlugin/>} />
+      <Route exact path="/white-label" element={<WhiteLabel/>} />
+      <Route exact path="/sdk" element={<SDK/>} />
+      <Route exact path="/merchant" element={<Merchant/>} />
+      <Route exact path="/account" element={<Account/>} />
 
         
     </Routes>

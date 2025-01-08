@@ -9,7 +9,7 @@ const Screen1 = () => {
         <h2>Always compliant and certified</h2>
         <div className='lines'></div>
         <p className='p1'>Take payments without worrying about compliance -
-             NearPay ensures that we are always certified and compliant to the latest standards.</p>
+             rapidpay ensures that we are always certified and compliant to the latest standards.</p>
           <Levels/>   
           <Levels/>   
           <Levels/>   

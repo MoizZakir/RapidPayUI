@@ -51,7 +51,7 @@ gap:50px
     font-size: 15px;
     font-family: Arial, Helvetica, sans-serif;
     display: flex;
-    color: rgb(128, 128, 128);
+    color: rgb(29, 29, 29);
     flex-direction: column;
     position: relative;
     padding: 10px 0;
@@ -93,6 +93,29 @@ gap:50px
     justify-content: flex-end;
     /* border: 1px solid green; */
 }
+.dropdown-item a{
+    text-decoration: none;
+    color: black;
+    padding: 0px 15px;
+    border-radius: 8px;
+}
+.dropdown-item a:hover{
+    color: white;
+}
+.dropdown-item{
+    
+    border-radius: 5px;
+    padding: 5px 10px;
+    transition: all;
+    transition-duration: 0.2s;
+    cursor: pointer;
+}
+.dropdown-item:hover{
+    background-color: rgb(3, 177, 3);
+    color: white;
+    
+}
+
 .nav-right button{
     background:none;
     padding: 7px 10px;

@@ -8,7 +8,7 @@ import { GrSwift } from 'react-icons/gr'
 
 const HomeScreen4 = () => {
   const text = ` 
-  nearpay.purchase(amount, object : PaymentListener {
+  rapidpay.purchase(amount, object : PaymentListener {
   override fun onPaymentApproved(result: PaymentResult) {
       //your implementation
   }
@@ -20,7 +20,7 @@ const HomeScreen4 = () => {
   }
 });`
   return (
-    <div className='homescreen4'>
+    <div className='homescreen4' id='technically'>
       <div className="homescreen4-section1">
         <div>
           <h1>We support all platforms & languages</h1>

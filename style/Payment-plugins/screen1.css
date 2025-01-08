@@ -1,0 +1,146 @@
+.faq-screen1{
+    padding: 0px 40px;
+    padding-top: 60px;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 50px;
+    gap: 30px;
+    
+    width: 80%;
+}
+.ma1{
+    margin: 40px 0;
+}
+.ma1 li{
+    margin: 10px 0;
+}
+h5{
+    color: black;
+}
+.Quick-btn button{
+    margin-top: 20px;
+    background-color: #3861d3;
+    border-radius: 10px;
+    color: white;
+    padding: 5px 18px;
+    border: none;
+}
+.Quick-btn{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 20px;
+}
+
+
+
+
+
+
+
+.faq-screen1 table{
+    width: 80%;
+    /* border-collapse: collapse; */
+    border: 1px solid #dddddd;
+}
+.faq-screen1 table th{
+    background-color: rgb(245, 245, 245);
+    border: 1px solid #f0eeee;
+    padding: 10px;
+}
+tr{
+    display: flex;
+    flex-wrap: wrap;
+    height: max-content;
+    border-bottom:1px solid rgb(211, 210, 210) ;
+
+}
+
+
+.tr1{
+    display: flex;
+
+}
+.th1{
+    flex: 1;
+}
+.th2{
+    flex: 1;
+}
+.th3{
+    flex: 2.5;
+}
+
+.faq-screen1 table td:nth-child(1){
+    text-align: left;
+    
+    flex: 1;
+    padding: 10px;
+
+}
+.faq-screen1 table td:nth-child(2){
+    text-align: left;
+    
+    padding: 10px;
+    background-color: rgb(245, 245, 245);
+    flex: 1;
+}
+.faq-screen1 table td:nth-child(3){
+    text-align: left;
+    padding: 10px;
+    
+    
+    flex: 2.5;
+}
+.faq-screen1 table td:nth-child(3) li{
+    font-size: 14px;
+    margin: 15px 0;
+
+}
+
+
+
+
+
+
+
+@media (max-width:969px){
+    .faq-screen1{
+        width: 100%;
+        padding: 0px 20px;
+    padding-top: 60px;
+    padding-bottom: 50px;
+    }
+    .faq-screen1 table{
+        width: 90%;
+        /* border-collapse: collapse; */
+        border: 1px solid #d3d3d3;
+    }
+    .tr1{
+        display: none;
+    }
+    .faq-screen1 table td:nth-child(1){
+        text-align: left;
+        
+        width: 100%;
+        padding: 10px;
+        
+    }
+    .faq-screen1 table td:nth-child(2){
+        text-align: left;
+        width: 100%;
+    
+    padding: 20px;
+    background-color: rgb(236, 236, 236);
+    
+}
+.faq-screen1 table td:nth-child(3){
+    text-align: left;
+    padding: 10px;
+    
+    
+    width: 100%;
+}
+ 
+    
+}

@@ -5,10 +5,10 @@ import { BiArrowFromRight } from 'react-icons/bi'
 const Screen1 = () => {
   return (
     <div className='intro-screen1'>
-        <div>
+        <div id='i1'>
         <h3>Introduction</h3>
         <h5>Build Your Tap to Pay on Phone Now</h5>
-        <p>Tap to Pay on Phone is a product offered by NearPay Company. 
+        <p>Tap to Pay on Phone is a product offered by rapidpay Company. 
             The Tap to Pay on Phone SDK enables you to create a secure and convenient payment
              system in your Android app.
              This system allows you to accept payments on any device quickly and easily.</p>
@@ -18,15 +18,15 @@ const Screen1 = () => {
                  </div>
       <div>  <h3>Pre-requisites</h3>
         <ul>
-            <li>Send your Android package name to integration@nearpay.io.</li>
-            <li>Email integration@nearpay.io with a list of users who need access to the sandbox account.</li>
+            <li>Send your Android package name to integration@rapidpay.io.</li>
+            <li>Email integration@rapidpay.io with a list of users who need access to the sandbox account.</li>
         </ul>
         </div>
         <div>
         <h3>Minimum Requirements</h3>
         <p>These are the minimum requirements for integrating Android devices into Production:</p>
 
-            <table>
+            <table className='table'>
                 
                     <tr>
                         <th>Requirement</th>
@@ -53,7 +53,7 @@ const Screen1 = () => {
                     <tr>
                         <td className='td1'>Security</td>
                         <td className='td2'>	
-                        NearPay has a strict attestation system in place that blocks 
+                        rapidpay has a strict attestation system in place that blocks 
                         devices if any of the following signs are detected:
                         <ul>
                             <li>The APK has been tampered with</li>  
