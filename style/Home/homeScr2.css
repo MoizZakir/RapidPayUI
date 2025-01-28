@@ -74,7 +74,9 @@
     font-size: 18px;
 }
 
-.btn{
+
+
+.HomeScreen2 .Btn{
     display: inline-block;
     padding: 15px 20px;
     font-size: 15px;
@@ -88,8 +90,18 @@
     cursor: pointer;
     font-weight: 500;
     text-decoration: none;
-    transition: background-color 0.3s;
+
+    transition: all 0.3s;
+
     z-index: 1;
+}
+.HomeScreen2 .Btn:hover{
+    background-color: transparent;
+    text-decoration: underline;
+    font-size: 15px;
+    letter-spacing: 1px;
+    
+   transform: scale(1.05);
 }
 @media(max-width:900px){
     .HomeScreen2{

@@ -1,7 +1,9 @@
 import React from 'react'
 import '../../style/Home/homeScr6.css'
+import { useNavigate } from 'react-router-dom'
 
 const HomeScreen6 = () => {
+    const navigate=useNavigate()
   return (
     <div className='homescreen6' id='pricing'>
         <div className='homescreen6-section1'>
@@ -13,7 +15,7 @@ const HomeScreen6 = () => {
                 <li><span>&#10004; </span>SDK</li>
                 <li><span>&#10004; </span>API Access</li>
             </ul>
-            <button>Contact us</button>
+            <button onClick={()=>navigate('/contact')}>Contact us</button>
 
 
         </div>

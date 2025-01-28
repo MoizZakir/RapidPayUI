@@ -1,7 +1,9 @@
 import React from 'react'
 import '../../style/Home/homeScr2.css'
+import { useNavigate } from 'react-router-dom'
 
 const HomeScreen2 = () => {
+  const navigate=useNavigate()
   return (
     <div className='HomeScreen2' id='certificates'>
         <h3>Trusted by the World's best companies</h3>
@@ -23,7 +25,7 @@ const HomeScreen2 = () => {
            designed  to <br/> streamline transactions
            with contactless technology for faster and more<br/> secure payments.</p>
 
-        <button className='btn'>Learn More</button>
+        <button className='Btn' onClick={()=>navigate('/feature')}>Learn More</button>
     </div>
 
 

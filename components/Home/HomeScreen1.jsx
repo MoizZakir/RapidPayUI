@@ -1,7 +1,9 @@
 import React from 'react'
 import '../../style/Home/homeScr1.css'
+import { useNavigate } from 'react-router-dom'
 
 const HomeScreen1 = () => {
+  const navigate=useNavigate()
   return (
     <div className='homescreen1' >
         <div className="intro">
@@ -12,8 +14,8 @@ const HomeScreen1 = () => {
                  minutes using the cutting-edge RapidPay SDK. 
                 Elevate your business by swiftly embracing secure transaction methods.</p>
                 <div className='intro-btn'>
-                <button>Get Started</button>
-                <button>Documentaion</button>
+                <button onClick={()=>navigate('/contact')}>Get Started</button>
+                <button onClick={()=>navigate('/intro')} >Documentaion</button>
 
                 </div>
 

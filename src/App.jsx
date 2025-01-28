@@ -24,6 +24,8 @@ import PayementPlugin from '../pages/PayementPlugin'
 import WhiteLabel from '../pages/White-label'
 import Merchant from '../pages/Merchant'
 import Account from '../pages/Account'
+import Signin from '../pages/Signin'
+import Forget from '../pages/Forget'
 
 function App() {
   
@@ -55,6 +57,8 @@ function App() {
       <Route exact path="/sdk" element={<SDK/>} />
       <Route exact path="/merchant" element={<Merchant/>} />
       <Route exact path="/account" element={<Account/>} />
+      <Route exact path="/signin" element={<Signin/>} />
+      <Route exact path="/forget" element={<Forget/>} />
 
         
     </Routes>

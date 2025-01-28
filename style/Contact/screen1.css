@@ -29,24 +29,24 @@
     width: 50%;
     /* border: 1px solid green; */
 }
-form{
+.contact-screen1 form{
     display: flex;
     
     flex-wrap: wrap;
     justify-content: space-between;
 }
-.form-group{
+.contact-screen1 .form-group{
     width: 48%;
     margin-bottom: 20px;
     display: flex;
     flex-direction: column;
 }
-.form-group label{
+.contact-screen1 .form-group label{
     font-size: 15px;
     margin-bottom: 10px;
     font-weight: bold;
 }
-.form-group input{
+.contact-screen1 .form-group input{
     height: 40px;
     border-radius: 8px;
     border: 1px solid rgb(207, 207, 207);
