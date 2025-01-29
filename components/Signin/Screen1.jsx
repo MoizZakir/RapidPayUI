@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import '../../style/Signin/Screen1.css'
+import '../../style/Signin/screen1.css'
 import { useNavigate } from 'react-router-dom';
 
 
