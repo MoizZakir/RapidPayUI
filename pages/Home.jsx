@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Navbar from '../components/Navbar'
 import HomeScreen1 from '../components/Home/HomeScreen1'
 import HomeScreen2 from '../components/Home/HomeScreen2'
@@ -9,6 +9,9 @@ import Footer from '../components/Footer'
 import HomeScreen6 from '../components/Home/HomeScreen6'
 
 const Home = () => {
+   useEffect(() => {
+      window.scrollTo(0, 0);
+    }, []);
   return (
     <div>
         <Navbar/>

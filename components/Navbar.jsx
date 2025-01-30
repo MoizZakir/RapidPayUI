@@ -53,7 +53,7 @@ const Navbar = () => {
                     <div className='dropdown'>
                         <div className='dropdown-item' onClick={() => { navigate('/intro') }}> Get Stated</div>
                         <div className='dropdown-item' onClick={() => { navigate('/Sdk') }}> SDK</div>
-                        <div className='dropdown-item' onClick={() => { navigate('/Android') }}> Android-SDK</div>
+                        <div className='dropdown-item' onClick={() => { navigate('/Android-sdk') }}> Android-SDK</div>
 
                     </div>
                 </div>

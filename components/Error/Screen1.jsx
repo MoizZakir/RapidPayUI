@@ -169,11 +169,12 @@ const config = {
     <div style={{}} className='faq-screen1'>
       <h2 style={{fontWeight:'600'}}>Errors Code</h2>
       <p>Some time an error occurs while using our service. Listed below the most occurrence of the error.</p>
-      <Faq style={{border:'1px solid #f1f1f1'}}
+      <Faq 
                 data={data}
                 styles={styles}
                 config={config}
             />
+            
              
        
 

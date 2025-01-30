@@ -1,9 +1,12 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Navbar from '../components/Navbar'
 import Side from '../components/Side'
 import Screen1 from '../components/Error/Screen1'
 
 const Errors = () => {
+   useEffect(() => {
+      window.scrollTo(0, 0);
+    }, []);
  
 
 

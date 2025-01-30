@@ -8,6 +8,7 @@
     backdrop-filter: blur(10px);
     /* background-color: transparent; */
     display: flex;
+    z-index: 1000;
     justify-content: space-between;
     /* border-bottom: 0.1px solid rgb(206, 206, 206); */
 }
