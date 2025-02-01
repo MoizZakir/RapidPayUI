@@ -29,11 +29,11 @@ height: 97vh;
 overflow-y: scroll;
   background-color:white;
   position: fixed;
-  border-top-right-radius: 20px;
-  border-right: 1px solid grey;
+ 
+box-shadow: 150px 0px 50px 250px rgba(0, 0, 0, 0.36);
   top: 80px;
   
-  left: ${({ isOpen }) => (isOpen ? '0' : '-250px')};
+  left: ${({ isOpen }) => (isOpen ? '0' : '-1000px')};
   transition: left 0.3s ease-in-out;
   animation: ${({ isOpen }) => (isOpen ? slideIn : slideOut)} 0.3s ease-in-out;
   z-index: 1000;
@@ -64,7 +64,7 @@ const SidebarItem = styled.div`
   transition: background-color 0.3s ease;
 
   &:hover {
-    background-color: #34495e;
+    background-color:rgb(199, 199, 199);
   }
 `;
 
@@ -89,17 +89,57 @@ const MenueBar = () => {
         <>
             <SidebarButton onClick={toggleSidebar}>☰</SidebarButton>
             <SidebarContainer isOpen={isOpen}>
-                <SidebarItem onClick={() => handleItemClick('item1')}>Item 1</SidebarItem>
+                <SidebarItem onClick={() => handleItemClick('item1')}>Product</SidebarItem>
                 {expandedItem === 'item1' && (
                     <SubItemsContainer>
 
                         <SidebarItem>Sub Item 1</SidebarItem>
 
                         <SidebarItem>Sub Item 2</SidebarItem>
+                        <SidebarItem>Sub Item 2</SidebarItem>
+                        <SidebarItem>Sub Item 2</SidebarItem>
+                        <SidebarItem>Sub Item 2</SidebarItem>
+                        <SidebarItem>Sub Item 2</SidebarItem>
+                        <SidebarItem>Sub Item 2</SidebarItem>
+                        <SidebarItem>Sub Item 2</SidebarItem>
 
                     </SubItemsContainer>
                 )}
-                <SidebarItem onClick={() => handleItemClick('item2')}>Item 2</SidebarItem>
+                <SidebarItem onClick={() => handleItemClick('item2')}>Company</SidebarItem>
+                {expandedItem === 'item2' && (
+                    <SubItemsContainer>
+
+                        <SidebarItem>Sub Item 3</SidebarItem>
+                        <SidebarItem>Sub Item 3</SidebarItem>
+                        <SidebarItem>Sub Item 3</SidebarItem>
+
+
+                        <SidebarItem>Sub Item 4</SidebarItem>
+
+                    </SubItemsContainer>
+
+                )}
+                <SidebarItem onClick={() => handleItemClick('item2')}> Developer</SidebarItem>
+                {expandedItem === 'item2' && (
+                    <SubItemsContainer>
+
+                        <SidebarItem>Sub Item 3</SidebarItem>
+
+
+                        <SidebarItem>Sub Item 4</SidebarItem>
+                        <SidebarItem>Sub Item 4</SidebarItem>
+                        <SidebarItem>Sub Item 4</SidebarItem>
+                        <SidebarItem>Sub Item 4</SidebarItem>
+                        <SidebarItem>Sub Item 4</SidebarItem>
+                        <SidebarItem>Sub Item 4</SidebarItem>
+                        <SidebarItem>Sub Item 4</SidebarItem>
+                        <SidebarItem>Sub Item 4</SidebarItem>
+                        <SidebarItem>Sub Item 4</SidebarItem>
+
+                    </SubItemsContainer>
+
+                )}
+                <SidebarItem onClick={() => handleItemClick('item2')}>Resources 2</SidebarItem>
                 {expandedItem === 'item2' && (
                     <SubItemsContainer>
 
@@ -111,178 +151,8 @@ const MenueBar = () => {
                     </SubItemsContainer>
 
                 )}
-                <SidebarItem onClick={() => handleItemClick('item2')}>Item 2</SidebarItem>
-                {expandedItem === 'item2' && (
-                    <SubItemsContainer>
-
-                        <SidebarItem>Sub Item 3</SidebarItem>
-
-
-                        <SidebarItem>Sub Item 4</SidebarItem>
-
-                    </SubItemsContainer>
-
-                )}
-                <SidebarItem onClick={() => handleItemClick('item2')}>Item 2</SidebarItem>
-                {expandedItem === 'item2' && (
-                    <SubItemsContainer>
-
-                        <SidebarItem>Sub Item 3</SidebarItem>
-
-
-                        <SidebarItem>Sub Item 4</SidebarItem>
-
-                    </SubItemsContainer>
-
-                )}
-                <SidebarItem onClick={() => handleItemClick('item2')}>Item 2</SidebarItem>
-                {expandedItem === 'item2' && (
-                    <SubItemsContainer>
-
-                        <SidebarItem>Sub Item 3</SidebarItem>
-
-
-                        <SidebarItem>Sub Item 4</SidebarItem>
-
-                    </SubItemsContainer>
-
-                )}
-                <SidebarItem onClick={() => handleItemClick('item2')}>Item 2</SidebarItem>
-                {expandedItem === 'item2' && (
-                    <SubItemsContainer>
-
-                        <SidebarItem>Sub Item 3</SidebarItem>
-
-
-                        <SidebarItem>Sub Item 4</SidebarItem>
-
-                    </SubItemsContainer>
-
-                )}
-                <SidebarItem onClick={() => handleItemClick('item2')}>Item 2</SidebarItem>
-                {expandedItem === 'item2' && (
-                    <SubItemsContainer>
-
-                        <SidebarItem>Sub Item 3</SidebarItem>
-
-
-                        <SidebarItem>Sub Item 4</SidebarItem>
-
-                    </SubItemsContainer>
-
-                )}
-                <SidebarItem onClick={() => handleItemClick('item2')}>Item 2</SidebarItem>
-                {expandedItem === 'item2' && (
-                    <SubItemsContainer>
-
-                        <SidebarItem>Sub Item 3</SidebarItem>
-
-
-                        <SidebarItem>Sub Item 4</SidebarItem>
-
-                    </SubItemsContainer>
-
-                )}
-                <SidebarItem onClick={() => handleItemClick('item2')}>Item 2cd</SidebarItem>
-                {expandedItem === 'item2' && (
-                    <SubItemsContainer>
-
-                        <SidebarItem>Sub Item 3</SidebarItem>
-
-
-                        <SidebarItem>Sub Item 4</SidebarItem>
-
-                    </SubItemsContainer>
-
-                )}
-                 {expandedItem === 'item2' && (
-                    <SubItemsContainer>
-
-                        <SidebarItem>Sub Item 3</SidebarItem>
-
-
-                        <SidebarItem>Sub Item 4</SidebarItem>
-
-                    </SubItemsContainer>
-
-                )}
-                 {expandedItem === 'item2' && (
-                    <SubItemsContainer>
-
-                        <SidebarItem>Sub Item 3</SidebarItem>
-
-
-                        <SidebarItem>Sub Item 4</SidebarItem>
-
-                    </SubItemsContainer>
-
-                )}
-                 {expandedItem === 'item2' && (
-                    <SubItemsContainer>
-
-                        <SidebarItem>Sub Item 3</SidebarItem>
-
-
-                        <SidebarItem>Sub Item 4</SidebarItem>
-
-                    </SubItemsContainer>
-
-                )}
-                 {expandedItem === 'item2' && (
-                    <SubItemsContainer>
-
-                        <SidebarItem>Sub Item 3</SidebarItem>
-
-
-                        <SidebarItem>Sub Item 4</SidebarItem>
-
-                    </SubItemsContainer>
-
-                )}
-                 {expandedItem === 'item2' && (
-                    <SubItemsContainer>
-
-                        <SidebarItem>Sub Item 3</SidebarItem>
-
-
-                        <SidebarItem>Sub Item 4</SidebarItem>
-
-                    </SubItemsContainer>
-
-                )}
-                 {expandedItem === 'item2' && (
-                    <SubItemsContainer>
-
-                        <SidebarItem>Sub Item 3</SidebarItem>
-
-
-                        <SidebarItem>Sub Item 4</SidebarItem>
-
-                    </SubItemsContainer>
-
-                )}
-                 {expandedItem === 'item2' && (
-                    <SubItemsContainer>
-
-                        <SidebarItem>Sub Item 3</SidebarItem>
-
-
-                        <SidebarItem>Sub Item 4</SidebarItem>
-
-                    </SubItemsContainer>
-
-                )}
-                 {expandedItem === 'item2' && (
-                    <SubItemsContainer>
-
-                        <SidebarItem>Sub Item 3</SidebarItem>
-
-
-                        <SidebarItem>Sub Item 4</SidebarItem>
-
-                    </SubItemsContainer>
-
-                )}
+               
+            
             </SidebarContainer>
         </>
     );
