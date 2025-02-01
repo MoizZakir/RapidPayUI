@@ -30,6 +30,7 @@ overflow-y: scroll;
   background-color:white;
   position: fixed;
   border-top-right-radius: 20px;
+  border-right: 1px solid grey;
   top: 80px;
   
   left: ${({ isOpen }) => (isOpen ? '0' : '-250px')};
