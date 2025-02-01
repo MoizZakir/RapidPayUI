@@ -26,13 +26,16 @@ import Merchant from '../pages/Merchant'
 import Account from '../pages/Account'
 import Signin from '../pages/Signin'
 import Forget from '../pages/Forget'
+import MenueBar from '../components/MenuBar'
 
 function App() {
   
 
   return (
     <>
+    <MenueBar/>
         <BrowserRouter>
+
     <Routes>
       <Route exact path="/" element={<Home/>} />
       <Route exact path="/about" element={<About/>} />
