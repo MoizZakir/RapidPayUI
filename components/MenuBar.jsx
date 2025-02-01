@@ -25,7 +25,7 @@ const SidebarContainer = styled.div`
 
 
 width: 250px;
-height: 85vh;
+height: 92vh;
 overflow-y: scroll;
   background-color:white;
   position: fixed;
