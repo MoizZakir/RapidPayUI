@@ -39,7 +39,7 @@ const Side = () => {
         <ul>
             <li style={{color:location=='account' &&'blue'}} onClick={()=>navigate('/account')}>Accounts API</li>
             <li style={{color:location=='merchant' &&'blue'}} onClick={()=>navigate('/merchant')}>Merchant API</li>
-            <li>Webhook</li>
+            
            
         </ul>
         

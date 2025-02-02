@@ -27,15 +27,17 @@ import Account from '../pages/Account'
 import Signin from '../pages/Signin'
 import Forget from '../pages/Forget'
 import MenueBar from '../components/MenuBar'
+import SdkModels from '../pages/Sdk-models'
+import Support from '../pages/Support'
 
 function App() {
   
 
   return (
     <>
-    <MenueBar/>
         <BrowserRouter>
 
+    <MenueBar/>
     <Routes>
       <Route exact path="/" element={<Home/>} />
       <Route exact path="/about" element={<About/>} />
@@ -62,6 +64,8 @@ function App() {
       <Route exact path="/account" element={<Account/>} />
       <Route exact path="/signin" element={<Signin/>} />
       <Route exact path="/forget" element={<Forget/>} />
+      <Route exact path="/sdk-models" element={<SdkModels/>} />
+      <Route exact path="/support" element={<Support/>} />
 
         
     </Routes>

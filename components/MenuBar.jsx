@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import styled, { keyframes } from 'styled-components';
 
 const slideIn = keyframes`
@@ -65,6 +65,7 @@ const SidebarItem = styled.div`
 
   &:hover {
     background-color:rgb(199, 199, 199);
+    cursor: pointer;
   }
 `;
 
@@ -78,6 +79,7 @@ const SubItemsContainer = styled.div`
 const MenueBar = () => {
     const [isOpen, setIsOpen] = useState(false);
     const [expandedItem, setExpandedItem] = useState(null);
+    const navigate=useNavigate();
 
     const toggleSidebar = () => setIsOpen(!isOpen);
 
@@ -93,15 +95,14 @@ const MenueBar = () => {
                 {expandedItem === 'item1' && (
                     <SubItemsContainer>
 
-                        <SidebarItem>Sub Item 1</SidebarItem>
+                       
 
-                        <SidebarItem>Sub Item 2</SidebarItem>
-                        <SidebarItem>Sub Item 2</SidebarItem>
-                        <SidebarItem>Sub Item 2</SidebarItem>
-                        <SidebarItem>Sub Item 2</SidebarItem>
-                        <SidebarItem>Sub Item 2</SidebarItem>
-                        <SidebarItem>Sub Item 2</SidebarItem>
-                        <SidebarItem>Sub Item 2</SidebarItem>
+                         <SidebarItem >Certificate</SidebarItem>
+                        <SidebarItem>Infrastructure</SidebarItem>
+                        <SidebarItem>Technically</SidebarItem>
+                        <SidebarItem>Features</SidebarItem>
+                        <SidebarItem>Pricing</SidebarItem>
+                        
 
                     </SubItemsContainer>
                 )}
@@ -109,44 +110,98 @@ const MenueBar = () => {
                 {expandedItem === 'item2' && (
                     <SubItemsContainer>
 
-                        <SidebarItem>Sub Item 3</SidebarItem>
-                        <SidebarItem>Sub Item 3</SidebarItem>
-                        <SidebarItem>Sub Item 3</SidebarItem>
+                        
+                      <SidebarItem onClick={() => { toggleSidebar(); navigate('/about') }}>About</SidebarItem>
+                      <SidebarItem onClick={() => { toggleSidebar(); navigate('/feature') }}>Features</SidebarItem>
+                      <SidebarItem onClick={() => { toggleSidebar(); navigate('/blog') }}>Blog</SidebarItem>
+                      <SidebarItem onClick={() => { toggleSidebar(); navigate('/news') }}>News</SidebarItem>
+                      <SidebarItem onClick={() => { toggleSidebar(); navigate('/contact') }}>Contact</SidebarItem>
+                      <SidebarItem onClick={() => { toggleSidebar(); navigate('/compile') }}>Compilance</SidebarItem>
+                      <SidebarItem onClick={() => { toggleSidebar(); navigate('/partners') }}>Partners</SidebarItem>
+                      <SidebarItem onClick={() => { toggleSidebar(); navigate('/career') }}>Career</SidebarItem>
+                      <SidebarItem onClick={() => { toggleSidebar(); navigate('/privacy') }}>Privacy Policy</SidebarItem>
 
 
-                        <SidebarItem>Sub Item 4</SidebarItem>
-
-                    </SubItemsContainer>
-
-                )}
-                <SidebarItem onClick={() => handleItemClick('item2')}> Developer</SidebarItem>
-                {expandedItem === 'item2' && (
-                    <SubItemsContainer>
-
-                        <SidebarItem>Sub Item 3</SidebarItem>
-
-
-                        <SidebarItem>Sub Item 4</SidebarItem>
-                        <SidebarItem>Sub Item 4</SidebarItem>
-                        <SidebarItem>Sub Item 4</SidebarItem>
-                        <SidebarItem>Sub Item 4</SidebarItem>
-                        <SidebarItem>Sub Item 4</SidebarItem>
-                        <SidebarItem>Sub Item 4</SidebarItem>
-                        <SidebarItem>Sub Item 4</SidebarItem>
-                        <SidebarItem>Sub Item 4</SidebarItem>
-                        <SidebarItem>Sub Item 4</SidebarItem>
+                        
 
                     </SubItemsContainer>
 
                 )}
-                <SidebarItem onClick={() => handleItemClick('item2')}>Resources 2</SidebarItem>
-                {expandedItem === 'item2' && (
+                <SidebarItem onClick={() => handleItemClick('item3')}> Developer</SidebarItem>
+                {expandedItem === 'item3' && (
                     <SubItemsContainer>
 
-                        <SidebarItem>Sub Item 3</SidebarItem>
+                        
 
 
-                        <SidebarItem>Sub Item 4</SidebarItem>
+                        <SidebarItem onClick={() => { toggleSidebar(); navigate('/intro') }}>Get Started</SidebarItem>
+                        <SidebarItem onClick={() => { toggleSidebar(); navigate('/sdk') }}>SDk</SidebarItem>
+                        <SidebarItem onClick={() => { toggleSidebar(); navigate('/Android-sdk') }}>Android-SDK</SidebarItem>
+                       
+
+                    </SubItemsContainer>
+
+                )}
+                <SidebarItem onClick={() => handleItemClick('item4')}>Resources</SidebarItem>
+                {expandedItem === 'item4' && (
+                    <SubItemsContainer>
+
+                        <SidebarItem onClick={() => { toggleSidebar(); navigate('/support') }}>Support</SidebarItem>
+
+
+                        <SidebarItem onClick={() => { toggleSidebar(); navigate('/intro') }}>Documentation</SidebarItem>
+
+                    </SubItemsContainer>
+
+                )}
+                <SidebarItem onClick={() => handleItemClick('item5')}>Guides</SidebarItem>
+                {expandedItem === 'item5' && (
+                    <SubItemsContainer>
+
+                        <SidebarItem onClick={() => { toggleSidebar(); navigate('/intro') }}>Introduction</SidebarItem>
+                        <SidebarItem onClick={() => { toggleSidebar(); navigate('/prepare') }}>Preparing Your App</SidebarItem>
+                        <SidebarItem onClick={() => { toggleSidebar(); navigate('/quick') }}>Quick Start</SidebarItem>
+                        <SidebarItem onClick={() => { toggleSidebar(); navigate('/sdk') }}>SDK</SidebarItem>
+                        <SidebarItem onClick={() => { toggleSidebar(); navigate('/error') }}>Error Codes</SidebarItem>
+                        <SidebarItem onClick={() => { toggleSidebar(); navigate('/faq') }}>FAQ</SidebarItem>
+
+                    </SubItemsContainer>
+
+                )}
+                  <SidebarItem onClick={() => handleItemClick('item6')}>Remote Integration</SidebarItem>
+                {expandedItem === 'item6' && (
+                    <SubItemsContainer>
+
+                        <SidebarItem onClick={() => { toggleSidebar(); navigate('/web-sdk') }}>Web SDK</SidebarItem>
+                        <SidebarItem onClick={() => { toggleSidebar(); navigate('/Android-sdk') }}>Android-SDK Proxy</SidebarItem>
+                        
+                        
+
+                    </SubItemsContainer>
+
+                )}
+                  <SidebarItem onClick={() => handleItemClick('item7')}>API EndPoints</SidebarItem>
+                {expandedItem === 'item7' && (
+                    <SubItemsContainer>
+
+                        <SidebarItem onClick={() => { toggleSidebar(); navigate('/account') }}>Account API</SidebarItem>
+                        <SidebarItem> onClick={() => { toggleSidebar(); navigate('/merchant') }}Merchant API</SidebarItem>
+                      
+                        
+                        
+
+                    </SubItemsContainer>
+
+                )}
+                    <SidebarItem onClick={() => handleItemClick('item8')}>API EndPoints</SidebarItem>
+                {expandedItem === 'item8' && (
+                    <SubItemsContainer>
+
+                        <SidebarItem  onClick={() => { toggleSidebar(); navigate('/sdk') }} >SDK</SidebarItem>
+                        <SidebarItem onClick={() => { toggleSidebar(); navigate('/payment-plugin') }}>Payement Plugins</SidebarItem>
+                      <SidebarItem onClick={() => { toggleSidebar(); navigate('/white-label') }}>White label(full app)</SidebarItem>
+                        
+                        
 
                     </SubItemsContainer>
 
@@ -154,6 +209,7 @@ const MenueBar = () => {
                
             
             </SidebarContainer>
+            
         </>
     );
 };

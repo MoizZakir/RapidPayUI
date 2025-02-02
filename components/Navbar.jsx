@@ -38,8 +38,8 @@ const Navbar = () => {
                 </div>
                 <div className='navbar-item'> Company &#11167;
                     <div className='dropdown'>
-                        <div className='dropdown-item' onClick={() => { navigate('/about') }}> About</div>
-                        <div className='dropdown-item' onClick={() => { navigate('/feature') }}> Features</div>
+                        <div className='dropdown-item' onClick={() => { navigate('/about') }}  > About</div>
+                        <div className='dropdown-item' onClick={() => { navigate('/feature') }} > Features</div>
                         <div className='dropdown-item' onClick={() => { navigate('/blog') }}> Blog</div>
                         <div className='dropdown-item' onClick={() => { navigate('/news') }}> News</div>
                         <div className='dropdown-item' onClick={() => { navigate('/contact') }}> Contact</div>
@@ -58,8 +58,16 @@ const Navbar = () => {
                     </div>
                 </div>
 
-                <div className='navbar-item'> Resources &#11167;</div>
+                <div className='navbar-item'> Resources &#11167;
+                <div className='dropdown'>
+                        
+                        <div className='dropdown-item' onClick={() => { navigate('/support') }}> Support</div>
+                        <div className='dropdown-item' onClick={() => { navigate('/intro') }}> Documentation</div>
+
+                    </div>
             </div>
+            </div>
+
 
             <div className="nav-right">
                 <button onClick={()=>navigate('/signin')}>Sign in</button>

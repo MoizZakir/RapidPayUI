@@ -9,6 +9,11 @@
     
     width: 80%;
 }
+.snp{
+    padding: 40px 10px;
+    height: 50vh;
+    overflow-y: scroll;
+}
 .ma1{
     margin: 40px 0;
 }

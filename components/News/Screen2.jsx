@@ -6,7 +6,7 @@ const Screen2 = () => {
     const navigate=useNavigate()
   return (
     <div className='singleNews-container'>
-        <img src="https://media.licdn.com/dms/image/v2/D5622AQHur1yKADccmQ/feedshare-shrink_1280/feedshare-shrink_1280/0/1731992879074?e=1735776000&v=beta&t=JFW1-s0limGNqnBxa-AH-3WpAcRJn6NsEgPACfUhTvw" alt="" />
+        <img src="https://media.licdn.com/dms/image/v2/D5622AQHur1yKADccmQ/feedshare-shrink_1280/feedshare-shrink_1280/0/1731992879074?e=1741219200&v=beta&t=9MDJHFZUWaEIhGFD9yc2GElJReQcfFSCb1cjnocYQLI" alt="" />
        <div className='singleNews-container-content'> <h2>Saudi-based fintech raises close to $3.6m Series A payroll</h2>
        <p>RapidPay, a Saudi-based fintech startup, has raised $3.6 million in pre-Series
          A funding round led by Vision Ventures, with participation by Hala Ventures, Arzan

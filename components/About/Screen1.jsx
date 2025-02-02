@@ -14,7 +14,7 @@ const Screen1 = () => {
 
         <div className="screen1-scction2">
             <div className='image'>
-                <img src="https://rapidpay.io/_next/static/media/about.b85e4637.png" alt="" />
+                <img src="https://nearpay.io/_next/static/media/about.b85e4637.png" alt="" />
                 
 
             </div>
@@ -38,10 +38,10 @@ const Screen1 = () => {
             <div></div>
 
             <div className='screen1-section3-section1'>
-                <img src="https://rapidpay.io/_ipx/w_256,q_75/%2F_next%2Fstatic%2Fmedia%2Fvision.4c3a32d3.png?url=%2F_next%2Fstatic%2Fmedia%2Fvision.4c3a32d3.png&w=256&q=75" alt="" />
+                <img src="https://nearpay.io/_ipx/w_256,q_75/%2F_next%2Fstatic%2Fmedia%2Fvision.4c3a32d3.png?url=%2F_next%2Fstatic%2Fmedia%2Fvision.4c3a32d3.png&w=256&q=75" alt="" />
 
-                <img src="https://rapidpay.io/_next/static/media/hala.0c131ae4.svg" alt="" />
-                <img src="https://rapidpay.io/_next/static/media/arzan.3ce2e7d5.png" alt="" />
+                <img src="https://nearpay.io/_next/static/media/hala.0c131ae4.svg" alt="" />
+                <img src="https://nearpay.io/_next/static/media/arzan.3ce2e7d5.png" alt="" />
             </div>
         </div>
     </div>
