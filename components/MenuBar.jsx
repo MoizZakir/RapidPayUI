@@ -185,7 +185,7 @@ const MenueBar = () => {
                     <SubItemsContainer>
 
                         <SidebarItem onClick={() => { toggleSidebar(); navigate('/account') }}>Account API</SidebarItem>
-                        <SidebarItem> onClick={() => { toggleSidebar(); navigate('/merchant') }}Merchant API</SidebarItem>
+                        <SidebarItem onClick={() => { toggleSidebar(); navigate('/merchant') }}>Merchant API</SidebarItem>
                       
                         
                         
@@ -193,7 +193,7 @@ const MenueBar = () => {
                     </SubItemsContainer>
 
                 )}
-                    <SidebarItem onClick={() => handleItemClick('item8')}>API EndPoints</SidebarItem>
+                    <SidebarItem onClick={() => handleItemClick('item8')}>Changelogs</SidebarItem>
                 {expandedItem === 'item8' && (
                     <SubItemsContainer>
 
