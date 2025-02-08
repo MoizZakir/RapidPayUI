@@ -16,7 +16,8 @@ const Screen1 = () => {
     >
 
     <div className='SupportScreen1__box'>
-      <h4>Expert Guidance from RapidPay Team</h4>
+      <h4>Expert Guidance from Rapid
+SoftPos Team</h4>
       <p>Dive into a treasure trove of friendly advice and helpful 
         answers from the NearPay Team to start accepting payment with
          our Tap to Pay Ecosystem!</p>

@@ -13,7 +13,8 @@ Long finishTimeOut = 10L; // Add the number of seconds
 UUID transactionId = java.util.UUID.randomUUID(); // You can add your UUID here which allows you to ask about the transaction again using the same UUID
 Boolean enableUiDismiss = true ;// [optional] it will allow you to control dismissing the UI
 
-rapidpay.purchase(amount, customerReferenceNumber, enableReceiptUi, enableReversal, finishTimeOut,transactionId,enableUiDismiss, new PurchaseListener() {
+Rapid
+SoftPos.purchase(amount, customerReferenceNumber, enableReceiptUi, enableReversal, finishTimeOut,transactionId,enableUiDismiss, new PurchaseListener() {
     @Override
     public void onPurchaseApproved(@NonNull TransactionData transactionData) {
         // if you wish to get the receipt in Json format use ReceiptUtilsKt.toJson(list.get(0))
@@ -34,7 +35,8 @@ rapidpay.purchase(amount, customerReferenceNumber, enableReceiptUi, enableRevers
         <div>
             <h5>Before you begin
             </h5>
-        <p>The rapidpay team is required to create a sandbox account for you using your email and phone number, as well as your Android package name to initiate this integration process.</p>
+        <p>The Rapid
+SoftPos team is required to create a sandbox account for you using your email and phone number, as well as your Android package name to initiate this integration process.</p>
         <p>Additionally, you must possess an Android physical device capable of supporting NFC to test the integration and run the app on it.</p>
         
         </div>
@@ -42,21 +44,28 @@ rapidpay.purchase(amount, customerReferenceNumber, enableReceiptUi, enableRevers
             <h5>Start your first transaction</h5>
         
         <ol>
-            <li>1.Ensure that you download the rapidpay-sdk plugin by adding this dependency to your project.</li>
+            <li>1.Ensure that you download the Rapid
+SoftPos-sdk plugin by adding this dependency to your project.</li>
           
         
        <ReactCodeSinppet lang="jsx" code={`// Add it to your build.gradle
 
 dependencies {
-    implementation("io.rapidpay:rapidpay-sdk-store:2.1.88")
+    implementation("io.Rapid
+SoftPos:Rapid
+SoftPos-sdk-store:2.1.88")
 }
 
 `}>
                   <div>Java</div>
                 </ReactCodeSinppet>
        
-            <li>2.To create a single instance of a rapidpay object with context, you can do so wherever you need it.</li>
-            <ReactCodeSinppet  lang="jsx" code={`rapidpay rapidpay = new rapidpay.Builder()
+            <li>2.To create a single instance of a Rapid
+SoftPos object with context, you can do so wherever you need it.</li>
+            <ReactCodeSinppet  lang="jsx" code={`Rapid
+SoftPos Rapid
+SoftPos = new Rapid
+SoftPos.Builder()
         .context(this)
         .authenticationData(new AuthenticationData.UserEnter)
         .environment(Environments.SANDBOX)
@@ -85,7 +94,8 @@ Long finishTimeOut = 10L; // Add the number of seconds
 UUID transactionId = java.util.UUID.randomUUID(); // You can add your UUID here which allows you to ask about the transaction again using the same UUID
 Boolean enableUiDismiss = true ;// [optional] it will allow you to control dismissing the UI
 
-rapidpay.purchase(amount, customerReferenceNumber, enableReceiptUi, enableReversal, finishTimeOut,transactionId,enableUiDismiss, new PurchaseListener() {
+Rapid
+SoftPos.purchase(amount, customerReferenceNumber, enableReceiptUi, enableReversal, finishTimeOut,transactionId,enableUiDismiss, new PurchaseListener() {
     @Override
     public void onPurchaseApproved(@NonNull TransactionData transactionData) {
         // if you wish to get the receipt in Json format use ReceiptUtilsKt.toJson(list.get(0))

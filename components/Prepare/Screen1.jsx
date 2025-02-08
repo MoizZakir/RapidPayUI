@@ -12,7 +12,8 @@ var privateKey = fs.readFileSync('./pos_key.pem');
 var terminal = {
   data:{
     ops: "auth",
-    client_uuid: "212f66c6-bbfd-4fc7-9f50-31a749145cd1", // provided by rapidpay
+    client_uuid: "212f66c6-bbfd-4fc7-9f50-31a749145cd1", // provided by Rapid
+SoftPos
     terminal_id: "1000003000000006"// get this number from mada
   }
 }
@@ -25,9 +26,12 @@ return jwt.sign(terminal, privateKey, { algorithm: "RS256"});
         <p>How to securely connect to the Tap to Pay on Phone SDK</p>
         <div>
             <h5>Android Package Name</h5>
-        <p>To register your package name in rapidpay, follow these steps using the rapidpay dashboard:</p>
+        <p>To register your package name in Rapid
+SoftPos, follow these steps using the Rapid
+SoftPos dashboard:</p>
         <ol>
-            <li>Login to the rapidpay dashboard here</li>
+            <li>Login to the Rapid
+SoftPos dashboard here</li>
             <li>Once logged in, navigate to the Apps page</li>
             <li>Add a new App</li>
             <li>Provide the package name and the name of the Android app</li>
@@ -37,7 +41,8 @@ return jwt.sign(terminal, privateKey, { algorithm: "RS256"});
             <h5>Setting Up Terminal</h5>
         <p>To set up a terminal for conducting transactions, please follow these steps:</p>
         <ol>
-            <li>Login to the rapidpay dashboard here</li>
+            <li>Login to the Rapid
+SoftPos dashboard here</li>
             <li>Once logged in, navigate to the Terminals page</li>
             <li>Create a new terminal.</li>
             <li>Generate a TRSM code consisting of six hexadecimal digits.</li>
@@ -58,14 +63,18 @@ return jwt.sign(terminal, privateKey, { algorithm: "RS256"});
        </div>
        <div className='code'>
         <div>Login with existing email</div>
-      <p>  AuthenticationData.Email("rapidpay@rapidpay.io");</p>
+      <p>  AuthenticationData.Email("Rapid
+SoftPos@Rapid
+SoftPos.io");</p>
        </div>
         </div>
         <div>
             <h5>Allowing your user to login using mobile, email and UserEnter</h5>
-        <p>UserEnter, is a way to allow users to enter their mobile number or email to log in. To enable this feature in the rapidpay dashboard, there are a few steps that need to be followed. Once completed, users can log in from the App using their email or mobile number.</p>
+        <p>UserEnter, is a way to allow users to enter their mobile number or email to log in. To enable this feature in the Rapid
+SoftPos dashboard, there are a few steps that need to be followed. Once completed, users can log in from the App using their email or mobile number.</p>
         <ol>
-            <li>Login to the rapidpay dashboard here</li>
+            <li>Login to the Rapid
+SoftPos dashboard here</li>
             <li>Click on the "Terminals" tab.</li>
             <li>Select the terminal you want to invite the user to by clicking on its details.</li>
             <li>Under "Access", select "Invite user".</li>
@@ -77,7 +86,8 @@ return jwt.sign(terminal, privateKey, { algorithm: "RS256"});
             <h5>Allowing Your User To Login Using JWT</h5>
         <p>To connect your user device to a terminal ID, use your backend to sign the JWT with the following data:</p>
         <ol>
-            <li>Login to rapidpay Dashboard.</li>
+            <li>Login to Rapid
+SoftPos Dashboard.</li>
             <li>Go to the credentials page</li>
             <li>You will find the following:</li>
             <ul>

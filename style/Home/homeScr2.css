@@ -33,10 +33,10 @@
     margin: 100px auto;
     padding: 20px 20px;
 
-   
+    background-image: linear-gradient(to top, #2c34c9, #0080ff, #00b4fe, #00deb3, #53ff52);
     
         
-        background-image: radial-gradient(circle farthest-side at center bottom, hsl(120, 100%, 50%) -1%, hsl(0, 0%, 100%) 100%);;
+        /* background-image: radial-gradient(circle farthest-side at center bottom, hsl(120, 100%, 50%) -1%, hsl(0, 0%, 100%) 100%);; */
         
         color: black;
         text-align: center;
@@ -44,11 +44,13 @@
         box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
         font-family: Arial, Helvetica, sans-serif;
         overflow: hidden; /* Ensure the gradient doesn't overflow the box */
+        transition: all 0.3s;
        
     }
     .box:hover{
     color: white;
-        background-image: radial-gradient(circle farthest-side at center bottom, hsl(120, 100%, 50%) -1%, hsl(240, 100%, 53%) 100%);;
+    background-image: linear-gradient(to bottom, #2c34c9, #0080ff, #00b4fe, #00deb3, #53ff52);
+        /* background-image: radial-gradient(circle farthest-side at center bottom, hsl(120, 100%, 50%) -1%, hsl(240, 100%, 53%) 100%);; */
 
 }
 

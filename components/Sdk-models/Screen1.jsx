@@ -636,7 +636,8 @@ enum class StatusCheckError {
       <div style={{minHeight:"100px",fontSize:'14px', padding:'15px',paddingLeft:"25px",paddingRight:"25px",width:'100%' ,border:'1px solid rgba(239,68,68,.2)', backgroundColor:'hsla(0, 86%, 97%, .5)'}}>
 
       <span >
-      <RiErrorWarningFill color='red' size={20} style={{marginRight:"5px"}} />RapidPay services compatible 
+      <RiErrorWarningFill color='red' size={20} style={{marginRight:"5px"}} />Rapid
+SoftPos services compatible 
       with devices running 
       Android API 26 or higher, otherwise UNSUPPORTED_SDK_VERSION will returned</span>
 

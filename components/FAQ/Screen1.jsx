@@ -14,12 +14,14 @@ const Screen1 = () => {
             title: "What are public keys and private keys ?",
             content: `You can create the keys using Security section, public keys are the keys
              that you are going to share it with us and private keys are going to be used in generating the JWT to 
-            communicate with rapidpay when using any function like purchase , refund , etc.`,
+            communicate with Rapid
+SoftPos when using any function like purchase , refund , etc.`,
         },
         {
             title: "Which package name should I share ?",
             content:
-                "You need to share the package name for the Android project with the rapidpay team.",
+                `You need to share the package name for the Android project with the Rapid
+SoftPos team.`,
         },
         {
             title: "What are the different environments ?",
@@ -49,12 +51,15 @@ const data2 = {
       },
       {
           title: "How can I get the client uuid ?",
-          content: `rapidpay Team will send you a client uuid once we have received the public key and the android package name.
+          content: `Rapid
+SoftPos Team will send you a client uuid once we have received the public key and the android package name.
       `,
       },
       {
           title: "When do I need to logout ?",
-          content: "When rapidpay service is no longer needed . For example when the users logout from your app , they need to logout from rapidpay service (means the terminal) as well. So, they cannot use the service when they are logged out .",
+          content: `When Rapid
+SoftPos service is no longer needed . For example when the users logout from your app , they need to logout from Rapid
+SoftPos service (means the terminal) as well. So, they cannot use the service when they are logged out .`,
       },
   ],
 };
@@ -77,7 +82,8 @@ const data3 = {
       },
       {
           title: "How can I get the client uuid ?",
-          content: `rapidpay Team will send you a client uuid once we have received the public key and the android package name.
+          content: `Rapid
+SoftPos Team will send you a client uuid once we have received the public key and the android package name.
       `,
       },
       {
@@ -92,7 +98,8 @@ const data3 = {
       {
           title: "When should the developer mode be turned off?",
           content: `Whenever the SDK environment is on production , if the developer mode is
-           not off then you can not communicate with rapidpay to make any transactions .`,
+           not off then you can not communicate with Rapid
+SoftPos to make any transactions .`,
       },
       {
           title: "Can the user refund more than the paid amount in the transaction?",

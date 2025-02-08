@@ -14,7 +14,8 @@ const Screen1 = () => {
         <div>
             <h5>Before you begin
             </h5>
-        <p>The rapidpay team is required to create a sandbox account for you using your email and phone number, as well as your Android package name to initiate this integration process.</p>
+        <p>The Rapid
+SoftPos team is required to create a sandbox account for you using your email and phone number, as well as your Android package name to initiate this integration process.</p>
        
         
         </div>
@@ -26,15 +27,20 @@ const Screen1 = () => {
           
         </ol>
         <ReactCodeSinppet lang="jsx" code={` dependencies {
-    implementation 'io.rapidpay:rapidpay-proxy-v2:0.0.2'
+    implementation 'io.Rapid
+SoftPos:Rapid
+SoftPos-proxy-v2:0.0.2'
 }`}>
            <div>Java</div>
          </ReactCodeSinppet>
        <ol>
-            <li>2.Create single instance of rapidpay object with context wherever you need.</li>
+            <li>2.Create single instance of Rapid
+SoftPos object with context wherever you need.</li>
           
         </ol>
-        <ReactCodeSinppet lang="jsx" code={`val rapidpayProxy = rapidpayProxy.Builder()
+        <ReactCodeSinppet lang="jsx" code={`val Rapid
+SoftPosProxy = Rapid
+SoftPosProxy.Builder()
                     .port(8080)
                     .context(requireContext())
                     .environment(environment)
@@ -46,7 +52,8 @@ const Screen1 = () => {
        
       <h4>Show Connection</h4>
       <p>Display a view with current state and option to connect with two different method (bluetooth and websocket) and disconnect.</p>
-        <ReactCodeSinppet lang="jsx" code={`rapidpayProxy.showConnection();`}>
+        <ReactCodeSinppet lang="jsx" code={`Rapid
+SoftPosProxy.showConnection();`}>
            <div>Java</div>
          </ReactCodeSinppet>
        

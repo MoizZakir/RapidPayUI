@@ -18,40 +18,57 @@ const Screen1 = () => {
             <li>1.Add gradle dependency by adding the following code to the your Android App build.gradle</li>
           
         </ol>
-        <ReactCodeSinppet lang="jsx" code={`npm install "https://github.com/rapidpayio/rapidpay-react-native-sdk.git#google" --save
+        <ReactCodeSinppet lang="jsx" code={`npm install "https://github.com/Rapid
+SoftPosio/Rapid
+SoftPos-react-native-sdk.git#google" --save
 // after installing the plugin , please import the package
 
-import { Embededrapidpay } from '@rapidpaydev/react-native-rapidpay-sdk';`}>
+import { EmbededRapid
+SoftPos } from '@Rapid
+SoftPosdev/react-native-Rapid
+SoftPos-sdk';`}>
     <div>React Native</div>
   </ReactCodeSinppet>
         {/* <div className='code' style={{width:'100%'}}>
        
       <p>  dependencies &#10627; <br/>
-      implementation 'io.rapidpay:rapidpay-sdk-store:2.1.88' <br /> &#10628;
+      implementation 'io.Rapid
+SoftPos:Rapid
+SoftPos-sdk-store:2.1.88' <br /> &#10628;
 </p>
 
        </div> */}
 <p>Download the plugins</p>
-<ReactCodeSinppet lang="jsx" code={`npm install "https://github.com/rapidpayio/rapidpay-react-native-sdk.git#main" --save
+<ReactCodeSinppet lang="jsx" code={`npm install "https://github.com/Rapid
+SoftPosio/Rapid
+SoftPos-react-native-sdk.git#main" --save
 // after installing the plugin , please import the package
 
-import { Embededrapidpay } from '@rapidpaydev/react-native-rapidpay-sdk' `}>
+import { EmbededRapid
+SoftPos } from '@Rapid
+SoftPosdev/react-native-Rapid
+SoftPos-sdk' `}>
     <div>React Native</div>
 </ReactCodeSinppet>
 {/* <div className='code' style={{width:'100%'}}>
        
        <p>  dependencies &#10627; <br/>
-       implementation 'io.rapidpay:rapidpay-sdk:2.1.88' <br /> &#10628;
+       implementation 'io.Rapid
+SoftPos:Rapid
+SoftPos-sdk:2.1.88' <br /> &#10628;
  </p></div> */}
        <ol>
-            <li>2.Create single instance of rapidpay object with context wherever you need.</li>
+            <li>2.Create single instance of Rapid
+SoftPos object with context wherever you need.</li>
           
         </ol>
         
         {/* <div className='code' style={{width:'100%'}}>
         <div>Java & Kotlin</div>
       <p>  
-      val rapidpay = rapidpay.Builder()<br/><br/>
+      val Rapid
+SoftPos = Rapid
+SoftPos.Builder()<br/><br/>
       .context(this)<br/><br/>
       .authenticationData(AuthenticationData.UserEnter)<br/><br/>
       .environment(Environments.SANDBOX)<br/><br/>
@@ -65,7 +82,8 @@ import { Embededrapidpay } from '@rapidpaydev/react-native-rapidpay-sdk' `}>
         
 </p>
        </div> */}
-      <h4>When creating an instance for rapidpay, you must provide the following parameters:</h4>
+      <h4>When creating an instance for Rapid
+SoftPos, you must provide the following parameters:</h4>
      <ol>
       <li><h4>1.Context</h4>
       <p>You need to pass the current context</p></li>
@@ -73,7 +91,9 @@ import { Embededrapidpay } from '@rapidpaydev/react-native-rapidpay-sdk' `}>
       </li>
      </ol>
       <p>We have 4 method for login:</p>
-      <ReactCodeSinppet lang="jsx" code={` const rapidpay = new Embededrapidpay({
+      <ReactCodeSinppet lang="jsx" code={` const Rapid
+SoftPos = new EmbededRapid
+SoftPos({
   authtype: AuthenticationType.login, //[Required] the user auth type
   authvalue: "", //[Required] the auth value
   environment: Environments.sandbox, // [Required] the payment environment
@@ -90,7 +110,9 @@ import { Embededrapidpay } from '@rapidpaydev/react-native-rapidpay-sdk' `}>
       <br/><br/>
       AuthenticationData.Mobile("+966500000000")
       <br/><br/>
-      AuthenticationData.Email("rapidpay@rapidpay.io")
+      AuthenticationData.Email("Rapid
+SoftPos@Rapid
+SoftPos.io")
       <br/><br/>
       AuthenticationData.UserEnter
 </p>
@@ -104,7 +126,8 @@ import { Embededrapidpay } from '@rapidpaydev/react-native-rapidpay-sdk' `}>
        12 digits, including the exponent (e.g., 123456789012), which will result in 1,234,567,890.12.</p>
        <p>You can use the customerReferenceNumber field to attach a Reference ID to this transaction. If there is no reference ID, simply enter null.</p>
 <p>The enableReceiptUi parameter is a boolean, which means you can set it to either true or false based on your preference.</p> 
-<ReactCodeSinppet lang="jsx" code={`await rapidpay
+<ReactCodeSinppet lang="jsx" code={`await Rapid
+SoftPos
   .purchase({
     amount: amount, // Required
     transactionId: uuidv4(), //[Optional] speacify the transaction uuid
@@ -142,7 +165,8 @@ import { Embededrapidpay } from '@rapidpaydev/react-native-rapidpay-sdk' `}>
       val finishTimeOut : Long = 10<br/><br/>
       val requestId = UUID.randomUUID();<br/><br/>
       val enableUiDismiss = true<br/><br/>
-      rapidpay.purchase(amount, customerReferenceNumber, enableReceiptUi, enableReversal)<br/><br/>
+      Rapid
+SoftPos.purchase(amount, customerReferenceNumber, enableReceiptUi, enableReversal)<br/><br/>
       override fun onPurchaseApproved(transactionData: TransactionData)
       <br/><br/>
       <br/><br/>
@@ -152,7 +176,8 @@ import { Embededrapidpay } from '@rapidpaydev/react-native-rapidpay-sdk' `}>
         <h5>Refund</h5>
         <p>Kindly provide the transactionUuid of the transaction you wish to refund.</p>
         <p>The enableReceiptUi parameter is a boolean, which means you can set it to either true or false based on your preference.</p> 
-<ReactCodeSinppet lang="jsx" code={`await rapidpay
+<ReactCodeSinppet lang="jsx" code={`await Rapid
+SoftPos
   .refund({
     amount: amount, // [Required]
     originalTransactionUUID: uuid, // [Required] the orginal trnasaction uuid that you want to reverse
@@ -185,7 +210,8 @@ import { Embededrapidpay } from '@rapidpaydev/react-native-rapidpay-sdk' `}>
 </ReactCodeSinppet>
        <h5>Reverse</h5>
         <p>To perform a Reverse Transaction , it should be within one minute</p>
-        <ReactCodeSinppet lang="jsx" code={` await rapidpay
+        <ReactCodeSinppet lang="jsx" code={` await Rapid
+SoftPos
   .reverse({
     originalTransactionUUID: uuid, // [Required] the orginal trnasaction uuid that you want to reverse
     enableReceiptUi: true, // [Optional] show the reciept in ui

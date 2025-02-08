@@ -8,7 +8,8 @@ import { GrSwift } from 'react-icons/gr'
 
 const HomeScreen4 = () => {
   const text = ` 
-  rapidpay.purchase(amount, object : PaymentListener {
+  Rapid
+SoftPos.purchase(amount, object : PaymentListener {
   override fun onPaymentApproved(result: PaymentResult) {
       //your implementation
   }
@@ -51,9 +52,10 @@ const HomeScreen4 = () => {
 
       </div>
       <div className="homescreen4-section2">
-        <h2 style={{ marginBottom: "10px" }}>RapidPay SDK</h2>
+        <h2 style={{ marginBottom: "10px" }}>Rapid
+SoftPos SDK</h2>
         <textarea value={text} readOnly={true} style={{
-          backgroundColor: 'black', color: "white", width: '95%', minHeight: "400px", fontSize: '19px', padding: '20px', borderRadius: '10px', border: 'none'
+          backgroundColor: 'black', color: "white", width: '98.3%', minHeight: "400px", fontSize: '19px', padding: '20px', borderRadius: '10px', border: 'none'
 
         }} name="" id="">
 

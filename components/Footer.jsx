@@ -4,17 +4,20 @@ import { FaGithub, FaInstagram, FaLinkedin } from 'react-icons/fa'
 
 const Footer = () => {
   return (
-    <div style={{paddingBottom:"50px"}}>
+    <div style={{display:'flex',justifyContent:'center'}}>
+    <div style={{paddingBottom:"50px", width:'95%'}}>
     <div className='Footer'>
        <div className='footer-1'>
-        <h3>RapidPay</h3>
+        <h3>Rapid
+SoftPos</h3>
         <p>Start taking in person NFC card payments in under 30 minutes using
-            <br/> the rapidpay SDK</p>
+            <br/> the Rapid
+SoftPos SDK</p>
         <div style={{display:'flex',gap:"10px"}}>
             
-            <FaLinkedin size={25}/>
+           <a href="" > <FaLinkedin size={25}/></a>
             <FaGithub size={25}/>
-            <FaInstagram size={25}/>
+            <FaInstagram color='purple' size={25}/>
             
             </div>
 
@@ -70,8 +73,10 @@ const Footer = () => {
                 </ul>
             </div>    
     </div>
-<p style={{textAlign:'center', fontSize:"15px" ,color:'gray'}}>2024 All Rights Reserved © RapidPay</p>
+<p style={{textAlign:'center', fontSize:"15px" ,color:'gray'}}>2024 All Rights Reserved © Rapid
+SoftPos</p>
     
+    </div>
     </div>
   )
 }

@@ -13,15 +13,17 @@
 }
 .tables table td:nth-child(2){
     border: 2px solid rgb(185, 185, 185);
-    /* border-radius: 8px; */
+    /* border-s: 8px; */
     border-left: 2px solid rgb(0, 23, 128) ;
     border-right: 2px solid rgb(0, 23, 128) ;
     border-top:none ;
 }
 .tables table tr{
     border-bottom:  1px solid rgb(185, 185, 185) ;
+    
 }
 .tables table tr:nth-child(1) td:nth-child(2){
+    
     
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
@@ -38,6 +40,9 @@ td{
     flex: 1;
     
     
+}
+td h5{
+    padding: 20px 0;
 }
 td .p{
     width: 130px;

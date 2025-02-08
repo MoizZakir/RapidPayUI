@@ -20,6 +20,7 @@ line-height: 28px;
 .partners-company {
     display: flex;
     padding-top: 40px;
+    justify-content: center;
     flex-wrap: wrap;
     gap: 6px;
 }
@@ -35,8 +36,8 @@ line-height: 28px;
 border: 1px solid blue;
 }
 .partners-company img{
-    width: 45%;
-    height: 45%;
+    width: 65%;
+    height: 85%;
     object-fit: contain;
     
     /* padding: 5px 30px; */

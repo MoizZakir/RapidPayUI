@@ -11,7 +11,8 @@ const HomeScreen1 = () => {
             Pakistan's Seamless Payment Solutions for Swift and Secure Transactions
             </h1>
             <p>Easily enable in-person NFC card payments within 30
-                 minutes using the cutting-edge RapidPay SDK. 
+                 minutes using the cutting-edge Rapid
+SoftPos SDK. 
                 Elevate your business by swiftly embracing secure transaction methods.</p>
                 <div className='intro-btn'>
                 <button onClick={()=>navigate('/contact')}>Get Started</button>

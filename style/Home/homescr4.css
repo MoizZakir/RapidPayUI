@@ -1,6 +1,7 @@
 .homescreen4{
     padding-top: 100px;
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
     
 
@@ -50,7 +51,7 @@
     }
     .homescreen4-section2{
         padding-left: 10px;
-        width: 95%;
+        width: 99%;
     }
     .homescreen4-section2 textarea{
         width: 100%;

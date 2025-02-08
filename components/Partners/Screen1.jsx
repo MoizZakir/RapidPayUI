@@ -14,13 +14,17 @@ const Screen1 = () => {
         <h2>Our Partners</h2>
         <div className='lines'></div>
         <div className='partners-company'>
-            <div className=''>   <img style={{width:"70%"}} src="https://nearpay.io/_ipx/w_256,q_75/%2F_next%2Fstatic%2Fmedia%2Fsaudi-payment.d42b7527.png?url=%2F_next%2Fstatic%2Fmedia%2Fsaudi-payment.d42b7527.png&w=256&q=75" alt="" />
+            <div className=''>   <img  src="https://rapidpay.pk/assets/images/forLandingPage/pitbb.png" alt="" />
             </div>
-            <div className=''>   <img src="https://nearpay.io/_next/static/media/american.41de6ed1.png" alt="" />
+            <div className=''>   <img src="https://rapidpay.pk/assets/images/forLandingPage/AccelerateProsperity.png" alt="" />
             </div>
-            <div className=''>   <img src="https://nearpay.io/_next/static/media/master.9f887cc9.svg" alt="" />
+            <div className=''>   <img src="https://rapidpay.pk/assets/images/forLandingPage/meezan-bank-logo.png" alt="" />
             </div>
-            <div className=''>   <img src="https://nearpay.io/_next/static/media/visa.6b96beb2.svg" alt="" />
+            <div className=''>   <img src="https://rapidpay.pk/assets/images/forLandingPage/iucore_logo.png" alt="" />
+            </div>
+            <div className=''>   <img src="https://rapidpay.pk/assets/images/forLandingPage/xseed.svg" alt="" />
+            </div>
+            <div className=''>   <img src="https://rapidpay.pk/assets/images/forLandingPage/bafl.png" alt="" />
             </div>
             
         </div>

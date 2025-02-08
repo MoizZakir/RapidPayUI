@@ -15,7 +15,7 @@ const HomeScreen3 = () => {
                 <img src='https://rapidgateway.pk/assets/images/payment.png' alt="img" />
                 <div>
                 <h3>Secure payments</h3>
-                <p>Rapid Gateway provides wide range of payment options, including credit cards, digital wallets,
+                <p>Rapid SoftPos provides wide range of payment options, including credit cards, digital wallets,
                      and other popular methods, ensuring flexibility for both merchants and customers.</p>
             </div>
             </div>
@@ -23,7 +23,7 @@ const HomeScreen3 = () => {
                 <img src='https://rapidgateway.pk/assets/images/integration.png' alt="img" />
                 <div>
                 <h3>Secure payments</h3>
-                <p>Rapid Gateway provides wide range of payment options, including credit cards, digital wallets,
+                <p>Rapid SoftPos provides wide range of payment options, including credit cards, digital wallets,
                      and other popular methods, ensuring flexibility for both merchants and customers.</p>
             </div>
             </div>
@@ -31,7 +31,7 @@ const HomeScreen3 = () => {
                 <img src='https://rapidgateway.pk/assets/images/customize.png' alt="img" />
                 <div>
                 <h3>Secure payments</h3>
-                <p>Rapid Gateway provides wide range of payment options, including credit cards, digital wallets,
+                <p>Rapid SoftPos provides wide range of payment options, including credit cards, digital wallets,
                      and other popular methods, ensuring flexibility for both merchants and customers.</p>
             </div>
             </div>
@@ -39,7 +39,7 @@ const HomeScreen3 = () => {
                 <img src='https://rapidgateway.pk/assets/images/analytics.png' alt="img" />
                 <div>
                 <h3>Secure payments</h3>
-                <p>Rapid Gateway provides wide range of payment options, including credit cards, digital wallets,
+                <p>Rapid SoftPos provides wide range of payment options, including credit cards, digital wallets,
                      and other popular methods, ensuring flexibility for both merchants and customers.</p>
             </div>
             </div>
@@ -47,7 +47,7 @@ const HomeScreen3 = () => {
                 <img src='https://rapidgateway.pk/assets/images/security.png' alt="img" />
                 <div>
                 <h3>Secure payments</h3>
-                <p>Rapid Gateway provides wide range of payment options, including credit cards, digital wallets,
+                <p>Rapid SoftPos provides wide range of payment options, including credit cards, digital wallets,
                      and other popular methods, ensuring flexibility for both merchants and customers.</p>
             </div>
             </div>

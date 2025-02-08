@@ -9,7 +9,7 @@ const Navbar = () => {
     return (
         <div className='navbar'>
             <div className="logo">
-                <img src="https://rapidgateway.pk/assets/images/lLogo.png" alt="" />
+                
                 <span className='text1'>Rapid</span>
                 <span className='text2'>SoftPos</span>
 

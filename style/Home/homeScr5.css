@@ -2,6 +2,8 @@
     padding-top: 130px;
     display: flex;
     flex-wrap: wrap;
+    
+    
 }
 .homeScreen5-first{
     padding-left: 50px;
@@ -26,6 +28,12 @@
     /* width: 90; */
 
 }
+.homeScreen5-second div{
+    padding: 10px 0;
+}
+.hm6_icon{
+    font-size: 35px;
+}
 @media (max-width:900px) {
 
     .homeScreen5{
@@ -37,6 +45,9 @@
     .homeScreen5-second{
         width: 100vw;
         padding-left:15px;
+    }
+    .hm6_icon{
+        font-size: 35px;
     }
     
 }

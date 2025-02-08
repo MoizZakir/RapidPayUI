@@ -1,0 +1,75 @@
+.homescreen7{
+    padding: 0 70px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    display: flex;
+    padding-right: 20px;
+    flex-wrap: wrap;
+    
+}
+.homescreen7-section1{
+    padding: 20px 230px;
+    text-align: center;
+
+}
+
+
+.homescreen7-section2{
+    padding: 20px 0;
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+.homescreen7-section2 div{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    width: 300px;
+}
+.homescreen7-section2 div p{
+    text-align: center;
+
+
+    background-color: aliceblue;
+    color: gray;
+    padding: 10px 15px;
+    border-radius: 20px;
+    /* max-width: 90%; */
+    width: max-content;
+    
+    font-size: 15px;
+}
+
+.homescreen7-section2 div img{
+    width: 95%;
+}
+
+@media (max-width:950px) {
+    .homescreen7{
+        padding: 100px 10px;
+        gap: 10px;
+        padding-bottom: 10px;
+    }
+    .homescreen7-section1{
+        width: 100%;
+        padding: 10px 30px;
+    }
+    .homescreen7-section2{
+        justify-content: center;
+        width: 100%;
+    }
+    .homescreen7-section2 div{
+        width: 320px;
+    }
+    .lists{
+        padding-left: 0px;
+        padding-right: 5px;
+    }
+    .homescreen6-section1 button{
+        width: 250px;
+    }
+}

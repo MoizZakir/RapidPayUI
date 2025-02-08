@@ -1,6 +1,8 @@
 import React, { useState } from 'react'
 import '../../style/forget/screen1.css'
 import { useNavigate } from 'react-router-dom';
+import { FaRegHandshake } from 'react-icons/fa';
+import { MdOutlineQuestionMark } from 'react-icons/md';
 
 
 
@@ -53,11 +55,8 @@ const Screen1 = () => {
         </div>
       </div>
       <div className="forgot-password-right">
-        <img
-          src="https://rapidgateway.pk/assets/images/lLogo.png" /* Replace with your image URL */
-          alt="Forgot Password"
-          className="forgot-password-image"
-        />
+        {/* <img src="https://rapidgateway.pk/assets/images/lLogo.png"  alt="Forgot Password" className="forgot-password-image" /> */}
+        <MdOutlineQuestionMark size={300} color='blue' />
       </div>
     </div>
   );

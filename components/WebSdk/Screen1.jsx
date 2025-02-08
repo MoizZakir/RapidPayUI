@@ -9,17 +9,20 @@ const Screen1 = () => {
   return (
     <div className='quick-screen1'>
         <h3>Web-Sdk</h3>
-        <p>rapidpay Web SDK is responsible for connecting, sending, and receiving data with the POS device using a web application interface.</p>
+        <p>Rapid
+SoftPos Web SDK is responsible for connecting, sending, and receiving data with the POS device using a web application interface.</p>
         <div>
             
-        <p>rapidpay SDK will offer 2 ways of connecting to the POS RemotePos and USBPos.</p>
+        <p>Rapid
+SoftPos SDK will offer 2 ways of connecting to the POS RemotePos and USBPos.</p>
        
         
         </div>
         <div>
             <h4>Installation</h4>
             <p>To install the package use</p>
-            <ReactCodeSinppet lang="jsx" code={` npm i @rapidpaydev/web-sdk`}>
+            <ReactCodeSinppet lang="jsx" code={` npm i @Rapid
+SoftPosdev/web-sdk`}>
     <div>React Native</div>
   </ReactCodeSinppet>
            
@@ -27,7 +30,8 @@ const Screen1 = () => {
         
         
       <h4>Remote Connection</h4>
-            <ReactCodeSinppet lang="jsx" code={` import { RemotePos, Environments } from "@rapidpaydev/web-sdk";
+            <ReactCodeSinppet lang="jsx" code={` import { RemotePos, Environments } from "@Rapid
+SoftPosdev/web-sdk";
 
 const pos = new RemotePos({ environment: Environments.sandbox });`}>
     <div>React Native</div>
@@ -55,7 +59,8 @@ localStorage.setItem("remote-token", session.token);`}>
        <div>
         <h4>USB Connection</h4>
         <p>To connect with USBPos first create a POS object</p>
-        <ReactCodeSinppet lang="jsx" code={`import { USBPos, Environments } from "@rapidpaydev/web-sdk";
+        <ReactCodeSinppet lang="jsx" code={`import { USBPos, Environments } from "@Rapid
+SoftPosdev/web-sdk";
 
 const pos = new USBPos({ environment: Environments.sandbox });`}>
     <div>React Native</div>

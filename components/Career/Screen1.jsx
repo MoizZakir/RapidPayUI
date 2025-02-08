@@ -44,9 +44,11 @@ const Screen1 = () => {
             <h2>Open roles</h2>
             <div className='lines' style={{margin:0}}></div>
             <div className='section3-sec1'>
-              <img src="https://rapidpay.io/_ipx/w_640,q_75/%2F_next%2Fstatic%2Fmedia%2Fnot-found.c2d28d7b.png?url=%2F_next%2Fstatic%2Fmedia%2Fnot-found.c2d28d7b.png&w=640&q=75" alt="" />
+              <img src="https://Rapid
+SoftPos.io/_ipx/w_640,q_75/%2F_next%2Fstatic%2Fmedia%2Fnot-found.c2d28d7b.png?url=%2F_next%2Fstatic%2Fmedia%2Fnot-found.c2d28d7b.png&w=640&q=75" alt="" />
               <h4>No Open Roles Currently</h4>
-              <p>If you're interested in a role outside of our current openings, let us know at hr@rapidpay.io</p>
+              <p>If you're interested in a role outside of our current openings, let us know at hr@Rapid
+SoftPos.io</p>
             </div>
         </div>
     </div>

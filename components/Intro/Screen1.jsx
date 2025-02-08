@@ -8,7 +8,7 @@ const Screen1 = () => {
         <div id='i1'>
         <h3>Introduction</h3>
         <h5>Build Your Tap to Pay on Phone Now</h5>
-        <p>Tap to Pay on Phone is a product offered by rapidpay Company. 
+        <p>Tap to Pay on Phone is a product offered by rapid Company. 
             The Tap to Pay on Phone SDK enables you to create a secure and convenient payment
              system in your Android app.
              This system allows you to accept payments on any device quickly and easily.</p>
@@ -18,8 +18,8 @@ const Screen1 = () => {
                  </div>
       <div>  <h3>Pre-requisites</h3>
         <ul>
-            <li>Send your Android package name to integration@rapidpay.io.</li>
-            <li>Email integration@rapidpay.io with a list of users who need access to the sandbox account.</li>
+            <li>Send your Android package name to  integration@rapidsoftpos.com.</li>
+            <li>Email  integration@rapidsoftpos.com with a list of users who need access to the sandbox account.</li>
         </ul>
         </div>
         <div>
@@ -53,7 +53,7 @@ const Screen1 = () => {
                     <tr>
                         <td className='td1'>Security</td>
                         <td className='td2'>	
-                        rapidpay has a strict attestation system in place that blocks 
+                        rapid has a strict attestation system in place that blocks 
                         devices if any of the following signs are detected:
                         <ul>
                             <li>The APK has been tampered with</li>  

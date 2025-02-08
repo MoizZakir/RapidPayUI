@@ -9,7 +9,8 @@ const Screen1 = () => {
         <h2>Always compliant and certified</h2>
         <div className='lines'></div>
         <p className='p1'>Take payments without worrying about compliance -
-             rapidpay ensures that we are always certified and compliant to the latest standards.</p>
+             Rapid
+SoftPos ensures that we are always certified and compliant to the latest standards.</p>
           <Levels/>   
           <Levels/>   
           <Levels/>   

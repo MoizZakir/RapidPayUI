@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import '../../style/Signin/screen1.css'
 import { useNavigate } from 'react-router-dom';
+import { FaRegHandshake } from 'react-icons/fa';
 
 
 
@@ -68,11 +69,8 @@ const Screen1 = () => {
         </div>
       </div>
       <div className="signin-right">
-        <img
-          src="https://rapidgateway.pk/assets/images/lLogo.png" /* Replace with your image URL */
-          alt="Sign In"
-          className="signin-image"
-        />
+      <FaRegHandshake size={300} color='blue' />
+        {/* <img src="https://rapidgateway.pk/assets/images/lLogo.png" alt="Sign In"className="signin-image"/> */}
       </div>
     </div>
   );
