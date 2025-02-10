@@ -15,9 +15,9 @@ SoftPos</h3>
 SoftPos SDK</p>
         <div style={{display:'flex',gap:"10px"}}>
             
-           <a href="" > <FaLinkedin size={25}/></a>
-            <FaGithub size={25}/>
-            <FaInstagram color='purple' size={25}/>
+           <a href="https://www.linkedin.com/company/rapid-pay-pk/" target='_blank' > <FaLinkedin size={25}/></a>
+           <a href="https://github.com/rapid-pay" target='_blank'> <FaGithub size={25} color='black'/></a>
+            <a href="https://www.instagram.com/rapidpaypk/" target='_blank'><FaInstagram color='purple' size={25}/></a>
             
             </div>
 
