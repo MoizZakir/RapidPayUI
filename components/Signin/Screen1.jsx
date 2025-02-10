@@ -30,7 +30,7 @@ const Screen1 = () => {
     <div className="signin-container">
       <div className="signin-left">
         <div className="signin-box">
-          <h1 className="signin-title">Rapid <span style={{color:'blue'}}>Pay</span></h1>
+          <h1 className="signin-title">Rapid <span style={{color:'blue'}}>SoftPos</span></h1>
 <img className='logoimg' src="https://rapidgateway.pk/assets/images/lLogo.png" alt="" style={{width:'70px'}} /> 
           <p className="signin-subtitle">Sign in to continue</p>
           {error && <div className="error-message">{error}</div>}
