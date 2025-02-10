@@ -9,7 +9,7 @@ const Screen1 = () => {
             </h2>
             <div></div>
             <p>Rapid
-SoftPos is a Saudi Fintech company that provides Payment Infrastructure as a Service.
+SoftPos is a Pakistani Fintech company that provides Payment Infrastructure as a Service.
                  Bring your payments in-house securely and reliably today using our payments infrastructure.</p>
         </div>
 
@@ -42,10 +42,10 @@ SoftPos Thrilled to Gain Support from Visionary Teams at
             <div></div>
 
             <div className='screen1-section3-section1'>
-                <img src="https://nearpay.io/_ipx/w_256,q_75/%2F_next%2Fstatic%2Fmedia%2Fvision.4c3a32d3.png?url=%2F_next%2Fstatic%2Fmedia%2Fvision.4c3a32d3.png&w=256&q=75" alt="" />
+                <img src="https://rapidpay.pk/assets/images/forLandingPage/pitbb.png" alt="" />
 
-                <img src="https://nearpay.io/_next/static/media/hala.0c131ae4.svg" alt="" />
-                <img src="https://nearpay.io/_next/static/media/arzan.3ce2e7d5.png" alt="" />
+                <img src="https://rapidpay.pk/assets/images/forLandingPage/meezan-bank-logo.png" alt="" />
+                <img src="https://rapidpay.pk/assets/images/forLandingPage/bafl.png" alt="" />
             </div>
         </div>
     </div>

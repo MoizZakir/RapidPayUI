@@ -42,14 +42,14 @@ function App() {
       <Route exact path="/" element={<Home/>} />
       <Route exact path="/about" element={<About/>} />
       <Route exact path="/feature" element={<Feature/>} />
-      <Route exact path="/blog" element={<Blog/>} />
-      <Route exact path="/news" element={<News/>} />
-      <Route exact path="/news/:id" element={<SingleNews/>} />
+      {/* <Route exact path="/blog" element={<Blog/>} /> */}
+      {/* <Route exact path="/news" element={<News/>} /> */}
+      {/* <Route exact path="/news/:id" element={<SingleNews/>} /> */}
       <Route exact path="/contact" element={<Contact/>} />
-      <Route exact path="/compile" element={<Compilance/>} />
+      {/* <Route exact path="/compile" element={<Compilance/>} /> */}
       <Route exact path="/partners" element={<Partners/>} />
       <Route exact path="/privacy" element={<Privacy/>} />
-      <Route exact path="/career" element={<Career/>} />
+      {/* <Route exact path="/career" element={<Career/>} /> */}
       <Route exact path="/intro" element={<Intro/>} />
       <Route exact path="/prepare" element={<Prepare/>} />
       <Route exact path="/quick" element={<Quick/>} />

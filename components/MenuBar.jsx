@@ -97,11 +97,12 @@ const MenueBar = () => {
 
                        
 
-                         <SidebarItem >Certificate</SidebarItem>
-                        <SidebarItem>Infrastructure</SidebarItem>
-                        <SidebarItem>Technically</SidebarItem>
-                        <SidebarItem>Features</SidebarItem>
-                        <SidebarItem>Pricing</SidebarItem>
+                         <SidebarItem onClick={() => { toggleSidebar();}} ><a style={{color:'black', textDecoration:'none'}} href="/#certificates"> Certificate</a></SidebarItem>
+                         {/* <SidebarItem ><a href=""> Infrastructure</a></SidebarItem> */}
+                         <SidebarItem onClick={() => { toggleSidebar();}} ><a style={{color:'black', textDecoration:'none'}} href="/#technically"> Technically</a></SidebarItem>
+                         <SidebarItem onClick={() => { toggleSidebar();}}><a style={{color:'black', textDecoration:'none'}} href="/#features"> Features</a></SidebarItem>
+                         <SidebarItem onClick={() => { toggleSidebar();}}><a style={{color:'black', textDecoration:'none'}} href="/#pricing"> Pricing</a></SidebarItem>
+                       
                         
 
                     </SubItemsContainer>
@@ -113,12 +114,12 @@ const MenueBar = () => {
                         
                       <SidebarItem onClick={() => { toggleSidebar(); navigate('/about') }}>About</SidebarItem>
                       <SidebarItem onClick={() => { toggleSidebar(); navigate('/feature') }}>Features</SidebarItem>
-                      <SidebarItem onClick={() => { toggleSidebar(); navigate('/blog') }}>Blog</SidebarItem>
-                      <SidebarItem onClick={() => { toggleSidebar(); navigate('/news') }}>News</SidebarItem>
+                      {/* <SidebarItem onClick={() => { toggleSidebar(); navigate('/blog') }}>Blog</SidebarItem> */}
+                      {/* <SidebarItem onClick={() => { toggleSidebar(); navigate('/news') }}>News</SidebarItem> */}
                       <SidebarItem onClick={() => { toggleSidebar(); navigate('/contact') }}>Contact</SidebarItem>
-                      <SidebarItem onClick={() => { toggleSidebar(); navigate('/compile') }}>Compilance</SidebarItem>
+                      {/* <SidebarItem onClick={() => { toggleSidebar(); navigate('/compile') }}>Compilance</SidebarItem> */}
                       <SidebarItem onClick={() => { toggleSidebar(); navigate('/partners') }}>Partners</SidebarItem>
-                      <SidebarItem onClick={() => { toggleSidebar(); navigate('/career') }}>Career</SidebarItem>
+                      {/* <SidebarItem onClick={() => { toggleSidebar(); navigate('/career') }}>Career</SidebarItem> */}
                       <SidebarItem onClick={() => { toggleSidebar(); navigate('/privacy') }}>Privacy Policy</SidebarItem>
 
 

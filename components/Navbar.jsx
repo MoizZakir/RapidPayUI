@@ -20,9 +20,9 @@ const Navbar = () => {
                     <div className='dropdown'>
                         <div className='dropdown-item'><a href="/#certificates">Certificate</a>
                         </div>
-                        <div className='dropdown-item'>
+                        {/* <div className='dropdown-item'>
                             <a href="/#infrastucture"> Infrastructure</a>
-                        </div>
+                        </div> */}
                         <div className='dropdown-item'>
                             <a href="/#technically">Technically</a>
                         </div>
@@ -40,12 +40,12 @@ const Navbar = () => {
                     <div className='dropdown'>
                         <div className='dropdown-item' onClick={() => { navigate('/about') }}  > About</div>
                         <div className='dropdown-item' onClick={() => { navigate('/feature') }} > Features</div>
-                        <div className='dropdown-item' onClick={() => { navigate('/blog') }}> Blog</div>
-                        <div className='dropdown-item' onClick={() => { navigate('/news') }}> News</div>
+                        {/* <div className='dropdown-item' onClick={() => { navigate('/blog') }}> Blog</div> */}
+                        {/* <div className='dropdown-item' onClick={() => { navigate('/news') }}> News</div> */}
                         <div className='dropdown-item' onClick={() => { navigate('/contact') }}> Contact</div>
-                        <div className='dropdown-item' onClick={() => { navigate('/compile') }}> Compilance</div>
+                        {/* <div className='dropdown-item' onClick={() => { navigate('/compile') }}> Compilance</div> */}
                         <div className='dropdown-item' onClick={() => { navigate('/partners') }}> Partners</div>
-                        <div className='dropdown-item' onClick={() => { navigate('/career') }}> Career</div>
+                        {/* <div className='dropdown-item' onClick={() => { navigate('/career') }}> Career</div> */}
                         <div className='dropdown-item' onClick={() => { navigate('/privacy') }}> Privacy Policy</div>
                     </div>
                 </div>

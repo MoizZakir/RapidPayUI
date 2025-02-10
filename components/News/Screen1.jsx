@@ -11,7 +11,7 @@ const Screen1 = () => {
         <p>Find the latest news, interviews and other articles about us from around the net</p>
 
         <div className="news">
-            <div className='new' onClick={()=>navigate('/news/xy')}>
+            <div className='new' onClick={()=>{}}>
                 <img src="https://media.licdn.com/dms/image/v2/D5622AQHur1yKADccmQ/feedshare-shrink_1280/feedshare-shrink_1280/0/1731992879074?e=1741219200&v=beta&t=9MDJHFZUWaEIhGFD9yc2GElJReQcfFSCb1cjnocYQLI" alt="" />
                 <p>December 12, 2023</p>
                 <h5>Rapid

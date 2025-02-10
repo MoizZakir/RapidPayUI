@@ -18,7 +18,7 @@ const Home = () => {
         <Navbar/>
         <HomeScreen1/>
         <HomeScreen2/>
-        <HomeScreen3/>
+        {/* <HomeScreen3/> */}
         <HomeScreen4/>
         <HomeScreen7/>
         <HomeScreen5/>

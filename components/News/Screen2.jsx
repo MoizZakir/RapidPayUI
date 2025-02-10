@@ -21,7 +21,7 @@ SoftPos, tells StartupScene. “What differentiates this field specifically is t
          <p>The new funding will be used to enhance the startup’s offering and expand the team to cope with increased demand.</p>
          <p>Saudi Arabia’s venture capital funding increased three folds so far this year. In the first half of 2022, funding surged to $584 million, surpassing the total for the whole of 2021, according to data platform Magnitt. Some of the lion’s share of funding went to FOODICS raising $170 million in Series C funding; Tamara raising $100 million in Series B round; and HyperPay raising $36.7 million in its latest round of funding.</p>
          <p style={{color:'blue'}}>January 10, 2023</p>
-         <p style={{color:'black',textDecoration:'underline', cursor:'pointer' }} onClick={()=>navigate('/news')}>Back to News</p>
+         {/* <p style={{color:'black',textDecoration:'underline', cursor:'pointer' }} onClick={()=>navigate('/news')}>Back to News</p> */}
        </div>
     </div>
   )

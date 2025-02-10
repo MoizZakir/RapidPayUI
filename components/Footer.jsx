@@ -38,16 +38,15 @@ SoftPos SDK</p>
                 <h5>Company</h5>
                 <ul>
                 <li>About</li>
-                    <li>features</li>
-                    <li>Technically</li>
+                   
+                    
                     <li>Features</li>
-                    <li>Blog</li>
-                    <li>News</li>
-                    <li>Contact</li>
-                    <li>Compliance</li>
+                    {/* <li>Blog</li> */}
+                    {/* <li>News</li> */}
+                    {/* <li>Contact</li> */}
+                    {/* <li>Compliance</li> */}
                     <li>Partners</li>
-                    <li>Career
-                    </li>
+                    {/* <li>Career</li> */}
                     <li>Privacy policy</li>
                 </ul>
             </div>   
@@ -67,7 +66,7 @@ SoftPos SDK</p>
                 <ul>
                     <li>Status</li>
                     <li>Support</li>
-                    <li>Updates</li>
+                    {/* <li>Updates</li> */}
                     <li>documentation</li>
                     
                 </ul>
